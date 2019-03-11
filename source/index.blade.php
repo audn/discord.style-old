@@ -20,7 +20,7 @@
     {{-- https://laravel.com/docs/5.4/blade#template-inheritance --}}
     @section('body')
 
-    <div class="container pin absolute">
+    <div class="container center-div">
       <div class="row valign-wrapper no-valign-wrap-on-mobile">
         <div class="col s12 l19">
           <div class="discord-mockup z-depth-3">
