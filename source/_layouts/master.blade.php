@@ -51,6 +51,9 @@
 <html lang="en">
     <head>
         <head>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
             <title>
                 {{-- http://stackoverflow.com/questions/21804973/laravel-4-how-to-apply-title-and-meta-information-to-each-page-with-blade-master --}}
                 @yield('title')
@@ -104,3 +107,36 @@
 
     </body>
 </html>
+<script>
+(function($) {
+    "use strict"; // Start of use strict
+
+    var defaultId = 'default';
+
+    function showGroup(id) {
+
+        if (typeof id == 'undefined') {
+            showGroup(defaultId);
+            return;
+        }
+
+        $('.messages-group').each(function() {
+            if ($(this).attr('id') === id) {
+                $(this).addClass('show');
+            } else {
+                $(this).removeClass('show');
+            }
+        });
+    };
+
+    $(document).ready(function() {
+        showGroup(defaultId);
+    });
+
+    $('.trigger-group').click(function() {
+        console.log($(this).attr('data-id'));
+        var id = $(this).attr('data');
+        showGroup(id);
+    });
+})(jQuery); // End of use strict
+</script>
