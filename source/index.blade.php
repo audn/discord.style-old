@@ -12,50 +12,26 @@
         </style>
     </noscript>
 
-@endpush
+    @endpush
 
-@section('title', 'Example Page')
+    @section('title', ' Discord Templates')
 
-{{-- https://laravel.com/docs/5.4/blade#template-inheritance --}}
-@section('body')
+    {{-- https://laravel.com/docs/5.4/blade#template-inheritance --}}
+    @section('body')
 
-    @include('_partials.lazyload-image', [
-        'src' => 'img/large-image-1.jpg',
-        'class' => 'object-fit-cover'
-    ])
-    
     <div class="container mx-auto leading-normal">
         <div class="flex p-4 justify-center">
             <div class="flex-1 max-w-lg">
-                <h2 class="text-3xl lg:text-4xl mb-6">Urbanout: Why people are moving away from busy cities</h2>
-
-                <p class="text-lg lg:text-xl mb-4 text-grey-dark">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis id rerum, iste laboriosam fugiat beatae doloremque veniam! Totam tempora officiis, eius error accusantium doloribus quos deserunt dolorem, illum facilis atque.
-                </p>
-
-                @include('_partials.placeholder-text', ['paragraphs' => 8])
-
-                @include('_partials.lazyload-image', [
-                    'src' => 'img/large-image-2.jpg',
-                    'class' => 'object-fit-cover'
-                ])
-
-                @include('_partials.placeholder-text', ['paragraphs' => 5])
-
-                @include('_partials.lazyload-image', [
-                    'src' => 'img/large-image-3.jpg',
-                    'class' => 'object-fit-cover'
-                ])
-
-                @include('_partials.placeholder-text', ['paragraphs' => 6])
-
-                <hr class="border-t border-grey-light my-8">
-
-                <div class="my-6">
-                    <p class="text-center italic text-sm text-grey mb-4">If you enjoyed this article and want to be notified in the future...</p>
-                    <p class="text-center"><a href="#" class="no-underline inline-block bg-green hover:bg-green-dark text-white font-serif uppercase tracking-wide font-semibold text-center px-6 py-4 text-sm | js-subscribe">Subscribe</a></p>
+                <h1 class="text-3xl lg:text-4xl mb-6 text-white text-center -mb-px">Free Discord server templates!</h1>
+                <p class="text-grey-light text-center mb-10">Just click the button to get started.</p>
+                <div class="text-center">
+                  <a href="#" class="btn-blue text-white text-center no-underline ">
+                    Random template
+                  </a>
+                  <a href="#" class="btn-black text-white text-center no-underline ">
+                    Learn more
+                  </a>
                 </div>
-
             </div>
         </div>
     </div>

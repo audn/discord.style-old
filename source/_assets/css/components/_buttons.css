@@ -21,3 +21,17 @@
     @apply .bg-orange-dark;
   }
 }
+.btn-blue{
+  background-color: #7289da;
+  border-radius: 3px;
+  color: #fff;
+  display:inline-block;
+  padding:20px 50px;
+}
+.btn-black{
+  background-color: #000;
+  border-radius: 3px;
+  color: #fff;
+  display:inline-block;
+  padding:20px 50px;
+}
