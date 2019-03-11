@@ -21,9 +21,13 @@
 
     <div class="container mx-auto leading-normal">
         <div class="flex p-4 justify-center">
-            <div class="flex-1 max-w-lg">
+            <div class="flex-1 max-w-lg mt-8">
+              <div class="mb-10">
                 <h1 class="text-3xl lg:text-4xl mb-6 text-white text-center -mb-px">Free Discord server templates!</h1>
-                <p class="text-grey-light text-center mb-10">Just click the button to get started.</p>
+                <p class="text-grey-light text-center">Just click the button to get started.</p>
+              </div>
+              <p>
+                <br>
                 <div class="text-center">
                   <a href="#" class="btn-blue text-white text-center no-underline ">
                     Random template
@@ -35,5 +39,10 @@
             </div>
         </div>
     </div>
+    @include('_partials.lazyload-image', [
+        'src' => 'https://mee6.xyz/assets/8760e4297fb4b5644eabd7fd3b16370a.png',
+        'class' => 'absolute pin-b bg-center block mx-auto'
+    ])
+
 
 @endsection
