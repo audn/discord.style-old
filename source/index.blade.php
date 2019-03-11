@@ -32,17 +32,19 @@
               </div>
               <div class="items">
                 <div class="item"><a href="#"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></a></div>
+                <!--
                 <div class="item">
                   <button class="guild-add">+</button>
                 </div>
+              -->
               </div>
             </div>
             <div class="sidebar-panel hide-on-med-and-down">
               <div class="header">Discord Templates</div>
-              <div class="items"><a href="#">
+              <div class="items" id="items"><a href="#">
                   <div class="item trigger-group active" data="default">help</div></a><a href="#">
                   <div class="item trigger-group" data="tips">tips</div></a><a href="#">
-                  <div class="item trigger-group" data="staff-chat-all">staff-chat-all</div></a>
+                  <div class="item trigger-group locked" data="staff-chat-all">staff-chat-all</div></a>
              </div>
             </div>
             <div class="messages-panel">
@@ -100,6 +102,15 @@
                       <div class="content">you gonna throw that or what?</div>
                     </div>
                   </div>
+                  <div class="message">
+                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1088584545987891200/aaIAhnMm_400x400.jpg"/></div>
+                    <div class="body">
+                      <div class="user-name">audn</div>
+                      <div class="content">I'm out of ideas. Send us your chat ideas <a href="#">here</a>!</div>
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
               <div class="messages-group hide-unless-show" id="tips">
