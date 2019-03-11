@@ -1,0 +1,23 @@
+.btn {
+  @apply .px-8 .py-2 .bg-grey-lighter .rounded;
+
+  &:hover {
+    @apply .bg-grey-light;
+  }
+}
+
+.btn-primary {
+  @apply .btn .bg-blue .text-white;
+
+  &:hover {
+    @apply .bg-blue-dark;
+  }
+}
+
+.btn-secondary {
+  @apply .btn .bg-orange .text-white;
+
+  &:hover {
+    @apply .bg-orange-dark;
+  }
+}
