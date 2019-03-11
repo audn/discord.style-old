@@ -68,7 +68,7 @@
 
             @foreach ($hashed_files[0] as $key => $file)
 
-                <link rel="stylesheet" href="{{ $file }}">
+                <link rel="stylesheet" href="/{{ $file }}">
 
             @endforeach
 
@@ -102,7 +102,7 @@
 
         @foreach ($hashed_files[1] as $key => $file)
 
-            <script type="text/javascript" src="{{ $file }}"></script>
+            <script type="text/javascript" src="/{{ $file }}"></script>
 
         @endforeach
 
