@@ -51,6 +51,10 @@
 <html lang="en">
     <head>
         <head>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
             <title>
                 {{-- http://stackoverflow.com/questions/21804973/laravel-4-how-to-apply-title-and-meta-information-to-each-page-with-blade-master --}}
                 @yield('title')
@@ -104,3 +108,47 @@
 
     </body>
 </html>
+<script>
+(function($) {
+    "use strict"; // Start of use strict
+
+    var defaultId = 'default';
+
+    function showGroup(id) {
+
+        if (typeof id == 'undefined') {
+            showGroup(defaultId);
+            return;
+        }
+
+        $('.messages-group').each(function() {
+            if ($(this).attr('id') === id) {
+                $(this).addClass('show');
+            } else {
+                $(this).removeClass('show');
+            }
+        });
+    };
+
+    $(document).ready(function() {
+        showGroup(defaultId);
+    });
+
+    $('.trigger-group').click(function() {
+        console.log($(this).attr('data-id'));
+        var id = $(this).attr('data');
+        showGroup(id);
+    });
+})(jQuery); // End of use strict
+var header = document.getElementById("items");
+var btns = header.getElementsByClassName("item");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
+</script>

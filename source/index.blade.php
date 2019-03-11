@@ -29,7 +29,7 @@
               <p>
                 <br>
                 <div class="text-center">
-                  <a href="#" class="btn-blue text-white text-center no-underline ">
+                  <a href="/start" class="btn-blue text-white text-center no-underline ">
                     Random template
                   </a>
                   <a href="#" class="btn-black text-white text-center no-underline ">
