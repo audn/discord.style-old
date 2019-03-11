@@ -1,7 +1,7 @@
-# discord-templates
-Make sure your Discord Server is unique. 
-well.. unless they all go and use our templates, otherwise.. enjoy!
+# Discord Templates
+A free tool that will make your server cooler than ever. 
 
+### What is Discord?
+If you ask Wikipedia, “Discord is a proprietary freeware voice-over-Internet Protocol application designed for video gaming communities, that specializes in text, image, video and audio communication between users in a chat channel.”
 
-# What?
-We've made a website similar to the Discord App UI, where you can see some pre-made servers with ideas and bot suggestions in order to make your first Discord server, or current server - look better.
+In simple words, Discord is a communication app, much like Telegram or WhatsApp. It’s a place where communities can get together and interact with each other. The Discord app works with desktop and mobile platforms, combining the features of a chat lobby, a message board, and voice chats into one app.
