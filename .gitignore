@@ -1,9 +1,0 @@
-.DS_Store
-/build_local/
-/build_production/
-/bower_components/
-/node_modules/
-/vendor/
-_tmp/*
-/source/css/
-/source/js/
