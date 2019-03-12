@@ -865,6 +865,10 @@ body {
   font-weight: normal;
 }
 
+.locked-perms::before {
+  content: " " !important;
+}
+
 .a-container {
   max-width: 900px;
   margin-left: auto;
