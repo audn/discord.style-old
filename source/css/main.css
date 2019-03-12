@@ -853,7 +853,7 @@ body {
   vertical-align: middle;
   padding-left: 10px;
   margin-top: 3px;
-  border-radius: 5px;
+  border-radius: 2px;
   opacity: .3;
   color: white;
 }
@@ -879,7 +879,6 @@ body {
 
 .category {
   color: #72767d;
-  padding-left: 10px;
   font-size: 11px;
   transition: all .2s;
   font-weight: bolder;
