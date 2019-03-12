@@ -208,7 +208,19 @@ body{
   line-height: 20px;
   text-transform: uppercase;
 }
+
+#category:hover #category-plus {
+    fill:#b9bbbe;
+}
+/*
 #category:hover > #category-plus { fill: yellow; }
+.category:hover{
+  color: #b9bbbe !important;
+  fill: #b9bbbe;
+  cursor:pointer;
+}
+*/
+
 .category:hover{
   color: #b9bbbe !important;
   fill: #b9bbbe;
