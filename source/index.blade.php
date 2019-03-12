@@ -27,10 +27,10 @@
                 <p class="text-grey-light text-center">Just click the button to get started.</p>
               </div>
                 <div class="text-center">
-                  <a href="/start" class="btn-blue text-white text-center no-underline ">
+                  <a href="/start" class="btn-blue m-3 text-white text-center no-underline ">
                     Random template
                   </a>
-                  <a href="#" class="btn-black text-white text-center no-underline ">
+                  <a href="#" class="btn-black m-3 text-white text-center no-underline ">
                     Learn more
                   </a>
                 </div>

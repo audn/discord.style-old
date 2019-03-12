@@ -881,8 +881,7 @@ body {
   text-transform: uppercase;
 }
 
-.category:hover,
-.category-expand:hover {
+.category:hover + .category-expand:hover {
   color: #b9bbbe !important;
   fill: #b9bbbe;
   cursor: pointer;

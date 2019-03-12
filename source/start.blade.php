@@ -39,11 +39,11 @@
             <div class="sidebar-panel hide-on-med-and-down">
               <div class="header">Discord Templates</div>
               <div class="items" id="items">
-                <div class="category">
+                <div class="category" id="category">
                   <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 10L12 15 17 10"></path>
                   Welcome to server
                   <svg style="float:right;" name="PlusAlt" class="addButtonIcon-3u-3Hu" width="18" height="18" viewBox="0 0 18 18">
-                  <polygon fill-rule="nonzero" class="category-expand" fill="#6d6e71" points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8">
+                  <polygon fill-rule="nonzero" id="category-plus" class="category-expand" fill="#6d6e71" points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8">
                   </polygon>
                 </svg>
                </div><a href="#">

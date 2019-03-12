@@ -56,7 +56,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="description" content="">
-	<link rel="stylesheet" href="/css/main.css?06df32366b9671c7727bf2fc3ddd0f6c">
+	<link rel="stylesheet" href="/css/main.css?72aa7b7fae0c62652d8cfd82f99c8fee">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
@@ -69,8 +69,47 @@
 	<meta property="og:image" content="">
 	<meta property="og:locale" content="">
 	<meta property="fb:app_id" content="">
+	<style>
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	}
+
+	li {
+	float: left;
+	}
+
+	li a {
+	display: block;
+	color: #aaabad;
+	text-align: center;
+	transition: all 0.2s;
+	padding: 25px 15px;
+	text-decoration: none;
+	}
+
+	li a:hover {
+	color:#fff;
+	}
+	</style>
 	</head>
 	<body>
+	<header>
+	<ul>
+	<div class="cmax-w-lg mx-auto flex justify-between items-center px-"></div>
+	<li class="menu">
+	<a href="#">Home</a>
+	</li>
+	<li class="menu">
+	<a href="#">Learn more</a>
+	</li>
+	<li class="menu">
+	<a href="#">Contact us</a>
+	</li>
+	</ul>
+	</header>
 	<div class="container center-div">
 	<div class="row valign-wrapper no-valign-wrap-on-mobile">
 	<div class="col s12 l19">
@@ -387,6 +426,14 @@
 	this.className += " active";
 	});
 	}
+	$(function() {
+	$('#category').hover(function() {
+	  $('#category-plus').css('color:', '#b9bbbe');
+	}, function() {
+	  // on mouseout, reset the background colour
+	  $('#b').css('background-color', '');
+	});
+	});
 	</script>
 	</body>
 </html>
