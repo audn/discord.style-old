@@ -2,16 +2,7 @@
 
 {{-- https://laravel.com/docs/5.4/blade#stacks --}}
 @push('head')
-
-    {{-- You can use the head stack to push page specific elements to the head, such as stylesheets --}}
-    <noscript>
-        <style>
-            .lqip {
-                display: none !important;
-            }
-        </style>
-    </noscript>
-
+  @include('_partials.header')
     @endpush
 
     @section('title', ' Discord Templates')

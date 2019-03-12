@@ -171,7 +171,7 @@
                             <div class="content-inner">
                               <div class="content">
                                 <div class="title">Discord.design</div>
-                                <p>Audun</p>
+                                <p>audn#0001</p>
                                 <p>audunhilden@live.no</p>
                                 <p>Average 240 daily views</p><br/>
                                 <p><b>

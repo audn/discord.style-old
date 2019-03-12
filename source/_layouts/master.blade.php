@@ -94,7 +94,7 @@
     </head>
     <body>
 
-        @include('_partials.header')
+        
 
         @yield('body')
 
