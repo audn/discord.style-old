@@ -24,16 +24,27 @@
               </div>
               <div class="items">
                 <div class="item"><a href="#"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></a></div>
-                <!--
+                <div class="item"><a href="https://apex-hub.com" target="_Blank"><img class="responsive-img" src="https://cdn.discordapp.com/icons/550004577404190729/04c1fac06656f28ad0ad5c3e8a2a6fea.png?"/></a></div>
                 <div class="item">
-                  <button class="guild-add">+</button>
+                  <button class="guild-add">
+                    <span style="top: -4px;left: 2px;right: 0px; position: absolute;">
+                      +
+                    </span>
+                  </button>
                 </div>
-              -->
               </div>
             </div>
             <div class="sidebar-panel hide-on-med-and-down">
               <div class="header">Discord Templates</div>
-              <div class="items" id="items"><a href="#">
+              <div class="items" id="items">
+                <div class="category">
+                  <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 10L12 15 17 10"></path>
+                  Welcome to server
+                  <svg style="float:right;" name="PlusAlt" class="addButtonIcon-3u-3Hu" width="18" height="18" viewBox="0 0 18 18">
+                  <polygon fill-rule="nonzero" class="category-expand" fill="#6d6e71" points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8">
+                  </polygon>
+                </svg>
+               </div><a href="#">
                   <div class="item trigger-group active" data="default">help</div></a><a href="#">
                   <div class="item trigger-group" data="tips">tips</div></a><a href="#">
                   <div class="item trigger-group locked" data="staff-chat-all">staff-chat-all</div></a>

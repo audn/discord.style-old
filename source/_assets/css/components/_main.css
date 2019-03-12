@@ -130,6 +130,7 @@ body{
 .discord-mockup .items-panel .items .item .guild-add {
   transition: all .3s ease;
   height: 50px;
+  position: relative;
   width: 50px;
   border-radius: 50%;
   background: transparent;
@@ -191,6 +192,20 @@ body{
   background-color: rgba(79,84,92,.6);
   opacity:1 !important;
   color:#f6f6f7 !important;
+}
+.category{
+  color: #72767d;
+  padding-left:10px;
+  font-size: 11px;
+  transition: all 0.2s;
+  font-weight: bolder;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.category:hover, .category-expand:hover{
+  color: #b9bbbe !important;
+  fill: #b9bbbe;
+  cursor:pointer;
 }
 .active:hover{
   z-indeX:99;
