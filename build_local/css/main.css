@@ -758,12 +758,6 @@ body {
           filter: brightness(2);
 }
 
-.active {
-  background-color: rgba(79, 84, 92, .6);
-  opacity: 1 !important;
-  color: #f6f6f7 !important;
-}
-
 .discord-mockup .items-panel .actions .close {
   background: #ff6052;
 }
@@ -864,6 +858,17 @@ body {
   color: #8a8e94 !important;
   margin-right: 3px;
   font-weight: normal;
+}
+
+.active {
+  background-color: rgba(79, 84, 92, .6);
+  opacity: 1 !important;
+  color: #f6f6f7 !important;
+}
+
+.active:hover {
+  z-indeX: 99;
+  background-color: rgba(79, 84, 92, .6) !important;
 }
 
 .discord-mockup .sidebar-panel .items .item:hover {
