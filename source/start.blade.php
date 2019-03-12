@@ -40,7 +40,7 @@
               <div class="items" id="items">
                 <div class="category" id="category">
                   <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 10L12 15 17 10"></path>
-                  Welcome to server
+                  Server categoryy
                   <svg style="float:right;" name="PlusAlt" class="addButtonIcon-3u-3Hu" width="18" height="18" viewBox="0 0 18 18">
                   <polygon fill-rule="nonzero" id="category-plus" class="category-expand" fill="#6d6e71" points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8">
                   </polygon>
@@ -169,7 +169,7 @@
                             <div class="color-pill"></div>
                             <div class="content-inner">
                               <div class="content">
-                                <div class="title">Discord.design</div>
+                                <div class="title">Partnership</div>
                                 <p>audn#0001</p>
                                 <p>audunhilden@live.no</p>
                                 <p>Average 240 daily views</p><br/>

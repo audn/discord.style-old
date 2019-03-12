@@ -208,7 +208,8 @@ body{
   line-height: 20px;
   text-transform: uppercase;
 }
-.category:hover + .category-expand:hover{
+#category:hover > #category-plus { fill: yellow; }
+.category:hover{
   color: #b9bbbe !important;
   fill: #b9bbbe;
   cursor:pointer;
