@@ -1,12 +1,13 @@
-<header>
-  <ul>
-    <div class="cmax-w-lg mx-auto flex justify-between items-center px-">
-      <li class="menu"><a href="#">Home</a></li>
-      <li class="menu"><a href="#">Learn more</a></li>
-      <li class="menu"><a href="#">Contact us</a></li>
-    </div>
-  </ul>
-</header>
+<div class="container mx-auto">
+  <header>
+    <ul>
+        <li class="menu"><a href="#">Home</a></li>
+        <li class="menu"><a href="#">Learn more</a></li>
+        <li class="menu"><a href="#">Contact us</a></li>
+      </div>
+    </ul>
+  </header>
+</div>
 <style>
 ul {
   list-style-type: none;

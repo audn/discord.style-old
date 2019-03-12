@@ -156,7 +156,7 @@ $(function() {
     $('#category-plus').css('color:', '#b9bbbe');
   }, function() {
     // on mouseout, reset the background colour
-    $('#b').css('background-color', '');
+    $('#category-plus').css('color', '');
   });
 });
 </script>
