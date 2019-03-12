@@ -647,6 +647,10 @@ body {
   width: 90%;
 }
 
+.pt-80 {
+  padding-top: 80px;
+}
+
 .r180 {
   -webkit-transform: rotate(180deg); /* Chrome and other webkit browsers */ /* FF */ /* Opera */ /* IE9 */
           transform: rotate(180deg); /* W3C compliant browsers *//* IE8 and below */
@@ -950,7 +954,6 @@ body {
 }
 
 .discord-mockup .messages-panel .messages-group .messages .message .body {
-  margin-left: 60px;
 }
 
 .discord-mockup .messages-panel .messages-group .messages .message .body .user-name {
@@ -1005,7 +1008,7 @@ body {
 
 .discord-mockup .messages-panel .messages-group .messages .message .body .embed-wrapper .color-pill {
   float: left;
-  background-color: #0050af;
+  background-color: #e0003b;
   border-radius: 3px 0 0 3px;
   width: 4px;
   flex-shrink: 0;

@@ -6,7 +6,9 @@ body{
 }
 
 
-
+.pt-80{
+  padding-top:80px;
+}
 .r180{
   -webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
   -moz-transform: rotate(180deg);        /* FF */
@@ -261,7 +263,6 @@ body{
   border-radius: 50%;
 }
 .discord-mockup .messages-panel .messages-group .messages .message .body {
-  margin-left: 60px;
 }
 .discord-mockup .messages-panel .messages-group .messages .message .body .user-name {
   color: white;
@@ -306,7 +307,7 @@ body{
 }
 .discord-mockup .messages-panel .messages-group .messages .message .body .embed-wrapper .color-pill {
   float: left;
-  background-color: #0050af;
+  background-color: #E0003B;
   border-radius: 3px 0 0 3px;
   width: 4px;
   flex-shrink: 0;
