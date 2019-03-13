@@ -41,7 +41,7 @@
               <div class="items" id="items">
                 <div class="category" id="category">
                   <svg class="iconCollapsed-3hFp_8 iconTransition-2pOJ7l directionRight-O8AY4M" width="12" height="12" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 10L12 15 17 10"></path></svg>
-                  Server categoryy
+                  Important things
                   <svg style="float:right;" name="PlusAlt" class="addButtonIcon-3u-3Hu" width="18" height="18" viewBox="0 0 18 18">
                   <polygon fill-rule="nonzero" id="category-plus" class="category-expand" fill="#6d6e71" points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8">
                   </polygon>
@@ -51,13 +51,13 @@
                   <div class="item trigger-group active" data="default">general</div>
                 </a>
                 <a href="#">
+                  <div class="item trigger-group locked" data="help">help</div>
+                </a>
+                <a href="#">
                   <div class="item trigger-group" data="tips">tips</div>
                 </a>
                 <a href="#">
                   <div class="item trigger-group locked" data="roadmap">roadmap</div>
-                </a>
-                <a href="#">
-                  <div class="item trigger-group locked" data="help">help</div>
                 </a>
                 <a href="#">
                   <div style="display:none" class="item trigger-group locked" data="partner">Partner</div>
@@ -85,7 +85,7 @@
                         <br>
                           We're always online to help! But it's probably best for you to check out
                         <a href="#">
-                          <span class="channelID" data="help">#help</span></a> first!
+                          <span class="channelID trigger-group" data="help">#help</span></a> first!
 
                       </div>
                     </div>
