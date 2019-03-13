@@ -22,11 +22,14 @@
   }
 }
 .btn-blue{
-  background-color: #7289da;
+  background-color: #292d2f;
   border-radius: 3px;
   color: #fff;
   margin: 10px;
   display:inline-block;
+}
+.btn-blue:hover{
+  background-color:#181b1d;
 }
 .btn-black{
   background-color: #000;
