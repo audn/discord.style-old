@@ -23,10 +23,10 @@ li {
 
 li a {
   display: block;
-  color: #aaabad;
+  color: #fff;
   text-align: center;
   transition: all 0.2s;
-  padding: 25px 15px;
+  padding: 10px 30px;
   text-decoration: none;
 }
 
