@@ -94,7 +94,7 @@
     </head>
     <body>
 
-        
+
 
         @yield('body')
 
