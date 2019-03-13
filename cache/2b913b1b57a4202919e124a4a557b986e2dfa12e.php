@@ -1,9 +1,10 @@
+<?php /* /Users/audn/Documents/GitHub/discord-templates/source/_partials/header.blade.php */ ?>
 <div class="container mx-auto">
   <header>
     <ul>
-        <li class="menu"><a href="/">< Go back</a></li>
-        <li class="menu"><a href="#">New template</a></li>
-        <li class="menu"><a href="#">Get link</a></li>
+        <li class="btn-blue menu"><a href="/">Home</a></li>
+        <li class="btn-blue menu"><a href="#">Learn more</a></li>
+        <li class="btn-blue menu"><a href="#">Contact us</a></li>
       </div>
     </ul>
   </header>

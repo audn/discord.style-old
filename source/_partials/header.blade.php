@@ -1,9 +1,9 @@
 <div class="container mx-auto">
   <header>
     <ul>
-        <li class="menu"><a href="/">Home</a></li>
-        <li class="menu"><a href="#">Learn more</a></li>
-        <li class="menu"><a href="#">Contact us</a></li>
+        <li class="btn-blue menu"><a href="/">Home</a></li>
+        <li class="btn-blue menu"><a href="#">Learn more</a></li>
+        <li class="btn-blue menu"><a href="#">Contact us</a></li>
       </div>
     </ul>
   </header>

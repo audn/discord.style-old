@@ -1,15 +1,12 @@
-
-@extends('_layouts.master')
-
-{{-- https://laravel.com/docs/5.4/blade#stacks --}}
-@push('head')
-  @include('_partials.header')
+<?php /* /Users/audn/Documents/GitHub/discord-templates/source/index.blade.php */ ?>
+<?php $__env->startPush('head'); ?>
+  <?php echo $__env->make('_partials.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
 
-    @section('title', ' Discord Templates')
+    <?php $__env->startSection('title', ' Discord Templates'); ?>
 
-    {{-- https://laravel.com/docs/5.4/blade#template-inheritance --}}
-    @section('body')
+    
+    <?php $__env->startSection('body'); ?>
 
     <div class="container center-div">
       <div class="row valign-wrapper no-valign-wrap-on-mobile">
@@ -158,4 +155,6 @@
     </div>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('_layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
