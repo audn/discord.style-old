@@ -54,14 +54,15 @@
                   <div class="item trigger-group locked" data="help">help</div>
                 </a>
                 <a href="#">
-                  <div class="item trigger-group" data="tips">tips</div>
+                  <div class="item trigger-group" data="roadmap">roadmap</div>
                 </a>
                 <a href="#">
-                  <div class="item trigger-group locked" data="roadmap">roadmap</div>
+                  <div class="item trigger-group" data="git">changes</div>
                 </a>
                 <a href="#">
                   <div style="display:none" class="item trigger-group locked" data="partner">Partner</div>
                 </a>
+
              </div>
             </div>
             <div class="messages-panel">
@@ -71,7 +72,7 @@
 
                   <div class="message">
                       <div class="icon pfp column">
-                        <img class="responsive-img" src="https://i.imgur.com/bG636ZF.jpg"/>
+                        <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
                       </div>
                     <div class="body">
                       <div class="msg column">
@@ -94,23 +95,11 @@
 
                 </div>
               </div>
-              <div class="messages-group hide-unless-show" id="tips">
-                <div class="header">tips</div>
-                <div class="messages">
-                  <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1088584545987891200/aaIAhnMm_400x400.jpg"/></div>
-                    <div class="body">
-                      <div class="user-name">audn</div>
-                      <div class="content">You can click channels to rename them!</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="messages-group hide-unless-show" id="roadmap">
                 <div class="header">roadmap</div>
                 <div class="messages">
                   <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1088584545987891200/aaIAhnMm_400x400.jpg"/></div>
+                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
                     <div class="body">
                       <div class="user-name">audn</div>
                       <div class="content">
@@ -155,6 +144,22 @@
                   </div>
                 </div>
               </div>
+              <div class="messages-group hide-unless-show" id="git">
+                <div class="header">changes</div>
+                <div class="messages">
+                  <div class="message">
+                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
+                    <div class="body">
+                      <div class="user-name">audn</div>
+                      <div class="content">
+                        <strong class="discord-bold">
+                          Look at the changes we've done public!
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="messages-group hide-unless-show" id="help">
                 <div class="header">help</div>
                 <div class="messages">
@@ -190,7 +195,7 @@
                 <div class="header">Adding server</div>
                 <div class="messages">
                   <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1088584545987891200/aaIAhnMm_400x400.jpg"/></div>
+                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
                     <div class="body">
                       <div class="user-name">audn</div>
                       <div class="content">Add your server on our website!
