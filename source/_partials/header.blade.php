@@ -1,3 +1,4 @@
+<!--
 <div class="container mx-auto">
   <header>
     <ul>
@@ -8,6 +9,7 @@
     </ul>
   </header>
 </div>
+-->
 <style>
 ul {
   list-style-type: none;
