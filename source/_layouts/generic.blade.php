@@ -55,20 +55,14 @@
               </polygon>
             </svg>
            </div>
+           @foreach ($page->channels as $channel)
+           <a href="#">
+              <div class="item trigger-group active" data="default">{{ $channels }}</div>
+            </a>
+            @endforeach
+            
            <a href="#">
               <div class="item trigger-group active" data="default">{{ $page->channel1 }}</div>
-            </a>
-            <a href="#">
-              <div class="item trigger-group locked" data="help">{{ $t1->channel1 }}</div>
-            </a>
-            <a href="#">
-              <div class="item trigger-group" data="roadmap">{{ $page->$channel1 }}</div>
-            </a>
-            <a href="#">
-              <div class="item trigger-group" data="git">changes</div>
-            </a>
-            <a href="#">
-              <div style="display:none" class="item trigger-group locked" data="partner">Partner</div>
             </a>
 
          </div>
