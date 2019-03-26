@@ -22,7 +22,7 @@
                 <div class="zoom"></div>
               </div>
               <div class="items">
-                <div class="item"><a href="#"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></a></div>
+                <div class="item"><a href="/"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></a></div>
                 <div class="item">
                   <!--
                   <a href="#">

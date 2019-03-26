@@ -5,7 +5,7 @@ return [
   'site_name' => 'Discord Templates'
   'collections' => [
           'templates' => [
-              'path' => 'channels/{filename}'
+              'path' => 't1/{filename}'
           ]
       ]
 
