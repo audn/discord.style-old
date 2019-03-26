@@ -5,7 +5,7 @@
     {{-- You can use the head stack to push page specific elements to the head, such as stylesheets --}}
 @endpush
 
-@section('title', $page->title . ' | discord.style')
+@section('title', $page->title . ' | Apex Hub')
 @section('description', $page->description)
 
 {{-- https://laravel.com/docs/5.4/blade#template-inheritance --}}
