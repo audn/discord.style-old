@@ -38,11 +38,13 @@
               </polygon>
             </svg>
            </div>
-           
-           @foreach ($page->channels as $channel)
-           <a href="#">
-              <div class="item trigger-group" data="default">{{ $channel }}</div>
-            </a>
+
+            @foreach ($page->channels as $channel)
+
+              <a href="#">
+                  <div class="item trigger-group" data="default">{{ $channel }}</div>
+              </a>
+              
             @endforeach
 
          </div>
