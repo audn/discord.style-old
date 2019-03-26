@@ -38,7 +38,7 @@
             @foreach ($page->channels as $channel)
 
               <a href="#">
-                  <div class="item trigger-group" data="default">{{ $channel }}</div>
+                  <div class="item trigger-group" data="default"> {{ $channel }}</div>
               </a>
 
             @endforeach
