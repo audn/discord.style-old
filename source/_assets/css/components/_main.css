@@ -361,7 +361,6 @@ body{
 }
 .discord-mockup .messages-panel .messages-group .messages .message .body {
   color: white;
-  font-weight: bold;
 }
 .discord-mockup .messages-panel .messages-group .messages .message .body p, .discord-mockup .messages-panel .messages-group .messages .message .body .content {
   color: rgba(255, 255, 255, 0.7);
