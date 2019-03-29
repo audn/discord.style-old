@@ -287,7 +287,166 @@ body{
   cursor:pointer;
 }
 */
+.theme-dark, .wrapper-35wsBm {
+    background: rgba(47,49,54,.6);
+    border-color: rgba(47,49,54,.9);
+}
+.wrapper-35wsBm {
+    -webkit-box-sizing: border-box;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 10px 15px 10px 10px;
+    width: 450px;
+    margin-left: 60px;
+    margin-top:10px;
+}
 
+.guildInfo-1STtYi {
+}
+.flex-1O1GKY {
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+.theme-dark, .h5-18_1nd {
+    color: #b9bbbe;
+}
+.onlineCount-w6_WmG {
+    margin-right: 8px;
+}
+.header-2BTCnc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.h5-18_1nd {
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.marginBottom8-AtZOdT {
+    margin-bottom: 8px;
+}
+.height16-2Lv3qA {
+    line-height: 16px;
+}
+.size12-3R0845 {
+    font-size: 12px;
+}
+.weightSemiBold-NJexzi {
+    font-weight: 600;
+}
+.content-2U5lSY {
+    -ms-flex-flow: row nowrap;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.button-3To2tQ.buttonSize-DbrWhv {
+    height: 40px;
+    min-width: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buttonContent-18Mz6_ {
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: #43b581;
+    border-radius:3px;
+    text-align:center !important;
+    color: #fff;
+}
+.button-3To2tQ, .buttonInner-1IRxqd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+.theme-dark, .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+    border-color: hsla(0,0%,100%,.3);
+    color: #fff;
+}
+.theme-dark, .guildIconImage-3qTk45 {
+    background-color: #36393f;
+}
+.statusOnline-8PnF5L {
+    background-color: #43b581;
+}
+.status-2L8Zc7 {
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 8px;
+    height: 8px;
+    margin-right: 4px;
+    width: 8px;
+}
+.statusOffline-37RKt7 {
+    background-color: #747f8d;
+}
+
+.status-2L8Zc7 {
+    border-radius: 50%;
+    line-height: 8px;
+    display: inline-block;
+    height: 8px;
+    margin-right: 4px;
+    width: 8px;
+}
+.theme-dark, .guildDetail-1nRKNE {
+    color: #72767d;
+}
+.theme-dark, .guildName-2hvnt_ {
+    color: #f6f6f7;
+}
+.guildNameJoined-H7D9uF {
+    cursor: pointer;
+}
+.guildName-2hvnt_ {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.marginBottom4-2qk4Hy {
+    margin-bottom: 4px;
+}
+.theme-dark, .guildIcon-lQ0uiM {
+    background-color: #7289da;
+}
+.guildIconImageJoined-SepVdI {
+    cursor: pointer;
+}
+.guildIconImage-3qTk45, .guildIconJoined-1r7FRE {
+}
+.guildIcon-lQ0uiM {
+    -ms-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+}
+.iconSizeLarge-161qtT {
+    height: 50px;
+    width: 50px;
+}
+.iconActiveLarge-2nzn9z {
+    border-radius: 15px;
+}
+.icon-3o6xvg {
+    background-clip: padding-box;
+    background-color: none;
+    background-position: 50%;
+    background-size: 100% 100%;
+    position: relative;
+}
 .category:hover{
   color: #b9bbbe !important;
   fill: #b9bbbe;
