@@ -75,13 +75,15 @@
             @stack('head')
 
             {{-- http://realfavicongenerator.net/ --}}
-            <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-            <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
-            <link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
-            <link rel="manifest" href="/favicon/manifest.json">
-            <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+            <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png?v=M4mO9xng8d">
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=M4mO9xng8d">
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=M4mO9xng8d">
+            <link rel="manifest" href="/favicon/site.webmanifest?v=M4mO9xng8d">
+            <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=M4mO9xng8d" color="#22292f">
+            <link rel="shortcut icon" href="/favicon/favicon.ico?v=M4mO9xng8d">
+            <meta name="msapplication-TileColor" content="#22292f">
             <meta name="theme-color" content="#22292f">
-
+            
             {{-- https://developers.facebook.com/docs/opengraph/getting-started --}}
             <meta property="og:url" content="https://discord.style" />
             <meta property="og:title" content="discord.style" />
