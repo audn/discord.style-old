@@ -10,7 +10,7 @@
 
     {{-- https://laravel.com/docs/5.4/blade#template-inheritance --}}
     @section('body')
-
+    <div id="ree-overlay" class="" style="transition: opacity 1.5s ease 0s;"></div>
     <div class="container center-div">
       <div class="row valign-wrapper no-valign-wrap-on-mobile">
         <div class="col s12 l19">
@@ -18,9 +18,16 @@
             <div class="items-panel">
               <div class="actions">
                 <div class="close"></div>
-                <div class="minimize"></div>
-                <div class="zoom"></div>
+                <div class="minimize" onclick="minimize"></div>
+                <div class="zoom" onclick="zoom"></div>
               </div>
+              <script>
+              jQuery(document).ready(function() {
+                jQuery('.close').click(function(){
+                 jQuery('#ree-overlay').toggleClass('reeingg');
+                  });
+              });
+              </script>
               @include('_partials.nav')
             </div>
             <div class="sidebar-panel hide-on-med-and-down">
