@@ -83,11 +83,11 @@
             <link rel="shortcut icon" href="/favicon/favicon.ico?v=M4mO9xng8d">
             <meta name="msapplication-TileColor" content="#22292f">
             <meta name="theme-color" content="#22292f">
-            
+
             {{-- https://developers.facebook.com/docs/opengraph/getting-started --}}
             <meta property="og:url" content="https://discord.style" />
             <meta property="og:title" content="discord.style" />
-            <meta property="og:description" content="Cool Discord templates! Free to use, and updated daily." />
+            <meta property="og:description" content="Tired of designing your Discord server from scratch? Use this free tool!" />
             <meta property="og:image" content="" />
             <meta property="og:locale" content="" />
             <meta property="fb:app_id" content="" />
