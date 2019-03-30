@@ -7,7 +7,8 @@ body{
 #ree-overlay.reeing {
     opacity: .4;
 }
-
+.discord-widget{visibility: hidden !important;}
+.discord-users-online{visibility: visible !important;}
 #ree-overlay {
     position: fixed;
     z-index: 9999;
