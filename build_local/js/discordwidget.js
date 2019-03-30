@@ -213,7 +213,7 @@ var discordWidget = discordWidget || (function() {
                         B = ''
                     }
                     l.innerHTML = u;
-                    w.innerHTML = '<span class="onlineCount-w6_WmG"><span class="statusOnline-8PnF5L status-2L8Zc7">&nbsp;</span> Online:</span> ' + y.members.length;
+                    w.innerHTML = '<span class="onlineCount-w6_WmG"><span class="statusOnline-8PnF5L status-2L8Zc7" style="background: #43b581;">&nbsp;</span> Online:</span> ' + y.members.length;
                     if (n.join) {
                         x.innerHTML = B
                     } else {

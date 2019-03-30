@@ -1125,6 +1125,11 @@ body {
   margin-left: 10px;
 }
 
+.discord-users-online {
+  visibility: visible !important;
+  float: left;
+}
+
 .status-2L8Zc7 {
   border-radius: 50%;
   line-height: 8px;
