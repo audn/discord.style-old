@@ -101,9 +101,9 @@
                             </div>
                             <div class="guildDetail-1nRKNE small-29zrCQ size12-3R0845 height16-2Lv3qA weightSemiBold-NJexzi">
                             <div class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignCenter-1dQNNs noWrap-3jynv6" style="flex: 0 1 auto;">
-                              <div class="discord-widget"></div>
+                            <div class="discord-widget"></div>
                             <span class="statusOffline-37RKt7 status-2L8Zc7">&nbsp;</span>
-                            <span>52,314 Members</span>
+                            <span>52,314 Membersss</span>
                           </div>
                         </div>
                           </div>
@@ -118,6 +118,7 @@
                       <script type="text/javascript">
                           discordWidget.init({
                               serverId: '554405736139194408',
+                              showAllUsers: true,
                           });
                           discordWidget.render();
                       </script>
