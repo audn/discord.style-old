@@ -101,14 +101,14 @@
                             </div>
                             <div class="guildDetail-1nRKNE small-29zrCQ size12-3R0845 height16-2Lv3qA weightSemiBold-NJexzi">
                             <div class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignCenter-1dQNNs noWrap-3jynv6" style="flex: 0 1 auto;">
-                            <span class="statusOnline-8PnF5L status-2L8Zc7">&nbsp;</span>
                             <span class="onlineCount-w6_WmG">
-
+                              <span class="statusOnline-8PnF5L status-2L8Zc7">&nbsp;</span>
+                              <div class="discord-widget"></div>
                             </span>
                             <span class="statusOffline-37RKt7 status-2L8Zc7">&nbsp;</span>
                             <span>52,314 Members</span>
                           </div>
-                          </div>
+                        </div>
                           </div>
                           <button type="button" class="button-3To2tQ height20-mO2eIN button-38aScr lookFilled-1Gx00P  colorGreen-29iAKY buttonSize-DbrWhv grow-q77ONN">
                             <div class="contents-18-Yxp buttonInner-1IRxqd">
@@ -124,8 +124,7 @@
                           });
                           discordWidget.render();
                       </script>
-                      <div class="discord-widget"></div>
-                      <div class="discord-widget"></div>
+
                         </div>
                       </div>
                     </div>

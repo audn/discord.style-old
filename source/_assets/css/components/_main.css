@@ -7,8 +7,9 @@ body{
 #ree-overlay.reeing {
     opacity: .4;
 }
+
 .discord-widget{visibility:  !important;}
-.discord-users-online{visibility: visible !important;}
+.discord-users-online{visibility: visible !important;float:left;}
 #ree-overlay {
     position: fixed;
     z-index: 9999;
@@ -328,6 +329,7 @@ body{
     color: #b9bbbe;
 }
 .onlineCount-w6_WmG {
+  float:left;
     margin-right: 8px;
 }
 .header-2BTCnc {
@@ -346,7 +348,7 @@ body{
     line-height: 16px;
 }
 .size12-3R0845 {
-    font-size: 12px;
+    font-size: 12px !important;
 }
 .weightSemiBold-NJexzi {
     font-weight: 600;
@@ -405,6 +407,7 @@ body{
 }
 .statusOffline-37RKt7 {
     background-color: #747f8d;
+    margin-left: 10px;
 }
 
 .status-2L8Zc7 {
@@ -416,10 +419,10 @@ body{
     width: 8px;
 }
 .theme-dark, .guildDetail-1nRKNE {
-    color: #72767d;
+    color: #72767d !important;
 }
 .theme-dark, .guildName-2hvnt_ {
-    color: #f6f6f7;
+    color: #f6f6f7 !important;
 }
 .guildNameJoined-H7D9uF {
     cursor: pointer;
