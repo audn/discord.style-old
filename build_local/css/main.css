@@ -656,7 +656,7 @@ body {
 }
 
 .discord-widget {
-  visibility: hidden !important;
+  visibility: !important;
 }
 
 .discord-users-online {
