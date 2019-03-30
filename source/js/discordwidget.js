@@ -122,7 +122,7 @@ var discordWidget = discordWidget || (function() {
                 function j(y, n) {
                     var z = $(".discord-widget")[0];
                     $(z).attr("version", a);
-                    var A = '<ul class="discord-trsee"></ul><p class="discord-users-online size12-3R0845 guildDetail-1nRKNE"></p><div class="discord-fade"></div>';
+                    var A = '<ul class="discord-trsee"></ul><p class="discord-users-online size12-3R0845 guildDetail-1nRKNE" style="float: left;"></p><div class="discord-fade"></div>';
                     var u = "";
                     var r = "";
                     var l, w, x;
