@@ -40,22 +40,22 @@
                 </svg>
                </div>
 
-               <a href="#">
-                  <div class="item trigger-group active" data="default">general</div>
+               <a href="#" style="width:220px;">
+                  <div class="item trigger-group active mt-32" data="default">general</div>
                 </a>
-                <a href="#">
+                <a href="#" style="width:220px;">
                   <div class="item trigger-group locked" data="streamer">streamer</div>
                 </a>
-                <a href="#">
+                <a href="#" style="width:220px;">
                   <div class="item trigger-group locked" data="community">community</div>
                 </a>
-                <a href="#">
+                <a href="#" style="width:220px;">
                   <div class="item trigger-group locked " data="startup">startup</div>
                 </a>
-                <a href="#">
+                <a href="#" style="width:220px;">
                   <div class="item trigger-group" data="git">changes</div>
                 </a>
-                <a href="#">
+                <a href="#" style="width:220px;">
                   <div style="display:none" class="item trigger-group locked" data="partner">Partner</div>
                 </a>
               </div>
