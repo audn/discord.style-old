@@ -1211,6 +1211,23 @@ body {
   background-color: rgba(79, 84, 92, .6) !important;
 }
 
+.slide {
+  width: 100px;
+  height: 60px;
+  background: linear-gradient(#444, #111);
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid white;
+  margin: 0 0 .75rem 0;
+  color: white;
+  line-height: 60px;
+  font-size: .5rem;
+  z-index: 5;
+}
+
 .discord-mockup .sidebar-panel .items .item:hover {
   opacity: 1;
   background: rgba(79, 84, 92, .2);

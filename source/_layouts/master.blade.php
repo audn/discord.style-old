@@ -51,13 +51,11 @@
 <html lang="en">
     <head>
         <head>
+
           <script language="JavaScript" type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/draggabilly.pkgd_copy.js"></script>
           <script language="JavaScript" type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/packery.pkgd.js"></script>
 
 
-          <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
-          <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
-          <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
@@ -118,6 +116,37 @@
     </body>
 </html>
 <script>
+docReady(function() {
+  var slidesElem = document.querySelector(".slides");
+  var slideSize = getSize(document.querySelector(".item"));
+  var pckry = new Packery(slidesElem, {
+    rowHeight: slideSize.outerHeight
+  });
+  // get item elements
+  var itemElems = pckry.getItemElements();
+  // for each item...
+  for (var i = 0, len = itemElems.length; i < len; i++) {
+    var elem = itemElems[i];
+    // make element draggable with Draggabilly
+    var draggie = new Draggabilly(elem, {
+      axis: "y"
+    });
+    // bind Draggabilly events to Packery
+    pckry.bindDraggabillyEvents(draggie);
+  }
+
+  // re-sort DOM after item is positioned
+  pckry.on("dragItemPositioned", function(_pckry, draggedItem) {
+    var index = pckry.items.indexOf(draggedItem);
+    var nextItem = pckry.items[index + 1];
+    if (nextItem) {
+      slidesElem.insertBefore(draggedItem.element, nextItem.element);
+    } else {
+      slidesElem.appendChild(draggedItem.element);
+    }
+  });
+});
+
 (function($) {
     "use strict"; // Start of use strict
 

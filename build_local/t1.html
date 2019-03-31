@@ -49,9 +49,6 @@
 	</style>
 	<script language="JavaScript" type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/draggabilly.pkgd_copy.js"></script>
 	<script language="JavaScript" type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/packery.pkgd.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
-	<script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
@@ -61,7 +58,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="description" content="">
-	<link rel="stylesheet" href="/css/main.css?bc41011efae9d0af519a77f013ef8a47">
+	<link rel="stylesheet" href="/css/main.css?d26fbdbb3105139c8303761b49f0d7ad">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png?v=M4mO9xng8d">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=M4mO9xng8d">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=M4mO9xng8d">
@@ -172,6 +169,37 @@
 	<script type="text/javascript" src="/js/discordwidget.js?80204126f3fa28cd5b54b4a98a6995d2"></script> 
 	<script type="text/javascript" src="/js/main.js?43871de5e777763011e8b1b449dfbdb6"></script> 
 	<script>
+
+	docReady(function() {
+	var slidesElem = document.querySelector(".slides");
+	var slideSize = getSize(document.querySelector(".item"));
+	var pckry = new Packery(slidesElem, {
+	  rowHeight: slideSize.outerHeight
+	});
+	// get item elements
+	var itemElems = pckry.getItemElements();
+	// for each item...
+	for (var i = 0, len = itemElems.length; i < len; i++) {
+	  var elem = itemElems[i];
+	  // make element draggable with Draggabilly
+	  var draggie = new Draggabilly(elem, {
+	    axis: "y"
+	  });
+	  // bind Draggabilly events to Packery
+	  pckry.bindDraggabillyEvents(draggie);
+	}
+
+	// re-sort DOM after item is positioned
+	pckry.on("dragItemPositioned", function(_pckry, draggedItem) {
+	  var index = pckry.items.indexOf(draggedItem);
+	  var nextItem = pckry.items[index + 1];
+	  if (nextItem) {
+	    slidesElem.insertBefore(draggedItem.element, nextItem.element);
+	  } else {
+	    slidesElem.appendChild(draggedItem.element);
+	  }
+	});
+	});
 
 	(function($) {
 	  "use strict"; // Start of use strict

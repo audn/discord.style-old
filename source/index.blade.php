@@ -10,7 +10,6 @@
 
     {{-- https://laravel.com/docs/5.4/blade#template-inheritance --}}
     @section('body')
-    <div id="ree-overlay" class="" style="transition: opacity 1.5s ease 0s;"></div>
     <div class="container center-div">
       <div class="row valign-wrapper no-valign-wrap-on-mobile">
         <div class="col s12 l19">
@@ -51,18 +50,7 @@
                   <div class="item trigger-group locked" data="community">community</div>
                 </a>
                 <a href="#">
-                  <div class="item trigger-group locked mb-6" data="startup">startup</div>
-                </a>
-                <div class="category" id="category">
-                  <svg class="iconCollapsed-3hFp_8 iconTransition-2pOJ7l directionRight-O8AY4M" width="12" height="12" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 10L12 15 17 10"></path></svg>
-                  <img src="https://discordapp.com/assets/d0df7bf4acd843defa4e417cf767a574.svg" class="emoji jumboable" alt=":sunglasses:" draggable="false"> Website things
-                  <svg style="float:right;" name="PlusAlt" class="addButtonIcon-3u-3Hu" width="18" height="18" viewBox="0 0 18 18">
-                  <polygon fill-rule="nonzero" id="category-plus" class="category-expand" fill="#6d6e71" points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8">
-                  </polygon>
-                </svg>
-               </div>
-                <a href="#">
-                  <div class="item trigger-group" data="roadmap">roadmap</div>
+                  <div class="item trigger-group locked " data="startup">startup</div>
                 </a>
                 <a href="#">
                   <div class="item trigger-group" data="git">changes</div>
@@ -93,71 +81,6 @@
                           @include('_partials.discInvite')
 
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="messages-group hide-unless-show" id="roadmap">
-                <div class="header">roadmap</div>
-                <div class="messages">
-                  <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
-                    <div class="body">
-                      <div class="user-name">audn</div>
-                      <div class="content">
-                        <strong class="discord-bold">
-                          Look at the changes we've taken into concideration!
-                        </strong>
-                        <br><p>- Press <span id="markdown">spacebar</span> to randomly select a theme.
-                          <div class="reactions">
-                            <div class="react">
-                              <img src="https://discordapp.com/assets/2af915882260fdb89538d1610e1d9baa.svg" alt="👍" draggable="false" class="emoji">
-                              <div class="reactionCount" style="min-width: 9px;">1</div>
-                            </div>
-                            <div class="react">
-                              <img src="https://discordapp.com/assets/9e1c3ddc9da7effefe8a370b7c33ed7b.svg" alt="👎" draggable="false" class="emoji">
-                              <div class="reactionCount" style="min-width: 9px;">1</div>
-                            </div>
-                          </div>
-                        <br><p>- Make it so people can actually chat online here.
-                          <div class="reactions">
-                            <div class="react">
-                              <img src="https://discordapp.com/assets/2af915882260fdb89538d1610e1d9baa.svg" alt="👍" draggable="false" class="emoji">
-                              <div class="reactionCount" style="min-width: 9px;">1</div>
-                            </div>
-                            <div class="react">
-                              <img src="https://discordapp.com/assets/9e1c3ddc9da7effefe8a370b7c33ed7b.svg" alt="👎" draggable="false" class="emoji">
-                              <div class="reactionCount" style="min-width: 9px;">1</div>
-                            </div>
-                          </div>
-                        <br><p>- Add some cool animations to buttons.
-                          <div class="reactions">
-                            <div class="react">
-                              <img src="https://discordapp.com/assets/2af915882260fdb89538d1610e1d9baa.svg" alt="👍" draggable="false" class="emoji">
-                              <div class="reactionCount" style="min-width: 9px;">1</div>
-                            </div>
-                            <div class="react">
-                              <img src="https://discordapp.com/assets/9e1c3ddc9da7effefe8a370b7c33ed7b.svg" alt="👎" draggable="false" class="emoji">
-                              <div class="reactionCount" style="min-width: 9px;">1</div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="messages-group hide-unless-show" id="git">
-                <div class="header">changes</div>
-                <div class="messages">
-                  <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
-                    <div class="body">
-                      <div class="user-name">audn</div>
-                      <div class="content">
-                        <strong class="discord-bold">
-                          Look at the changes we've done public!
-                        </strong>
                       </div>
                     </div>
                   </div>
