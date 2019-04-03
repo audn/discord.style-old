@@ -529,6 +529,7 @@ body{
   position: relative;
   padding: 15px 0 15px;
 }
+strong{color:#dcdcdc !important;}
 .discord-mockup .messages-panel .messages-group .messages .message .icon {
   float: left;
   height: 350px;
