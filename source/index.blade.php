@@ -75,16 +75,15 @@
                       <div class="msg column">
                       <div class="user-name">audn <span class="timestamp">Today at 13:37</span></div>
                       <div class="content">
-                          <img src="/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
-                          :sparkles:  Tired of designing your own Discord server? So am I. Today, I'll take you on a ride through discord.style!
-                          <p>
+                          <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false"> Tired of designing your own Discord server? So am I. Today, I'll take you on a ride through discord.style!
+                          <p><br>
                           We're a website featuring awesome Discord templates for your server! You don't need to install anything! It's only needed to invite our Discord bot to you server,  in order to download the templates!
-                          <p>
+                          <p><br>
                           <strong>It's super easy!</strong> You can watch the video in #video if you don't believe us yet.
-                          <p>
+                          <p><br>
                           <strong>Why should I use this</strong>
                           We offer a cool Discord BOT that will do it all for you! You can do commands such as <span id="markdown">ds.load </span>, or even <span id="markdown">ds.new</span> to save your own template, before loading in one of ours!
-                          <p>
+                          <p><br>
                           <strong>Real invite</strong>
                           Join our Discord server! We're always online to answer your questions, and we won't call you out for being a "noob", even if you don't know how to invite the BOT to your server, we'll help you!
                           <p>@include('_partials.discInvite')
