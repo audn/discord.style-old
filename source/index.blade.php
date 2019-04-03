@@ -41,7 +41,7 @@
                </div>
 
                <a href="#" style="width:220px;top:30px;">
-                  <div class="item trigger-group active mt-32" data="default">generjal</div>
+                  <div class="item trigger-group active mt-32" data="default">general</div>
                 </a>
                 <a href="#" style="width:220px;top:60px;">
                   <div class="item trigger-group locked" data="streamer">streamer</div>
