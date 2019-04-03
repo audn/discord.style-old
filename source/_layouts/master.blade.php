@@ -116,12 +116,9 @@
     </body>
 </html>
 <script>
-docReady(function() {
-  var slidesElem = document.querySelector(".slides");
+var slidesElem = document.querySelector(".slides");
   var slideSize = getSize(document.querySelector(".item"));
-  var pckry = new Packery(slidesElem, {
-    rowHeight: slideSize.outerHeight
-  });
+  var pckry = new Packery(slidesElem);
   // get item elements
   var itemElems = pckry.getItemElements();
   // for each item...
@@ -145,7 +142,6 @@ docReady(function() {
       slidesElem.appendChild(draggedItem.element);
     }
   });
-});
 
 (function($) {
     "use strict"; // Start of use strict

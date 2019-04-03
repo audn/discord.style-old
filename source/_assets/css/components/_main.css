@@ -286,7 +286,6 @@ body{
 .category{
   color: #72767d;
   font-size: 11px;
-  transition: all 0.2s;
   font-weight: bolder;
   line-height: 20px;
   text-transform: uppercase;
