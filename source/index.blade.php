@@ -81,6 +81,10 @@
                           <p><br>
                           <strong>It's super easy!</strong> You can watch the video in #video if you don't believe us yet.
                           <p><br>
+                          <strong>Editing templates</strong><br>
+                          Not satisfied with the template? No worries! You can drag them, change name, and delete whatever you'd like to!
+                          Keep in mind, it will go back to normal after you refresh the page
+                          <p><br>
                           <strong>Why should I use this</strong><br>
                           We offer a cool Discord BOT that will do it all for you! You can do commands such as <span id="markdown">ds.load </span>, or even <span id="markdown">ds.new</span> to save your own template, before loading in one of ours!
                           <p><br>
