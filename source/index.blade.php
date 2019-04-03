@@ -81,10 +81,10 @@
                           <p><br>
                           <strong>It's super easy!</strong> You can watch the video in #video if you don't believe us yet.
                           <p><br>
-                          <strong>Why should I use this</strong>
+                          <strong>Why should I use this</strong><br>
                           We offer a cool Discord BOT that will do it all for you! You can do commands such as <span id="markdown">ds.load </span>, or even <span id="markdown">ds.new</span> to save your own template, before loading in one of ours!
                           <p><br>
-                          <strong>Real invite</strong>
+                          <strong>Real invite</strong><br>
                           Join our Discord server! We're always online to answer your questions, and we won't call you out for being a "noob", even if you don't know how to invite the BOT to your server, we'll help you!
                           <p>@include('_partials.discInvite')
                       </div>
