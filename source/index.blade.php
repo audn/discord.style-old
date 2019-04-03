@@ -104,7 +104,7 @@
                           <strong>It's super easy!</strong> You can watch the video in #video if you don't believe us yet.
                           <p><br>
                           <strong>Editing templates</strong><br>
-                          Not satisfied with the template? No worries! You can drag the channels around, change the channel names, and delete whatever you'd like to! <i>(Everything will go back to normal after you refresh, so be careful!)
+                          Not satisfied with the template? No worries! You can drag the channels around, change the channel names, and delete whatever you'd like to! <i>(Everything will go back to normal after you refresh, so be careful!)</i>
                           <p><br>
                           <strong>Why should I use this</strong><br>
                           We offer a cool Discord bot that will do it all for you! Our bot will load in the template you want to get, by <span id="markdown">ds.load </span> <name>, and make a backup of the one you currently have. <i>(The backup part is something you need to do yourself, before loading in the template!)</i>
