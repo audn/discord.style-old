@@ -70,17 +70,25 @@
                   <div class="message">
                       <div class="icon pfp column">
                         <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
-                      </div>
+                     </div>
                     <div class="body">
                       <div class="msg column">
                       <div class="user-name">audn <span class="timestamp">Today at 13:37</span></div>
                       <div class="content">
-                        <strong class="disc-bold">Welcome to our website!</strong>
-                        <p>
-
-                          @include('_partials.discInvite')
-
-                        </div>
+                          <img src="/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
+                          :sparkles:  Tired of designing your own Discord server? So am I. Today, I'll take you on a ride through discord.style!
+                          <p>
+                          We're a website featuring awesome Discord templates for your server! You don't need to install anything! It's only needed to invite our Discord bot to you server,  in order to download the templates!
+                          <p>
+                          <strong>It's super easy!</strong> You can watch the video in #video if you don't believe us yet.
+                          <p>
+                          <strong>Why should I use this</strong>
+                          We offer a cool Discord BOT that will do it all for you! You can do commands such as <span id="markdown">ds.load </span>, or even <span id="markdown">ds.new</span> to save your own template, before loading in one of ours!
+                          <p>
+                          <strong>Real invite</strong>
+                          Join our Discord server! We're always online to answer your questions, and we won't call you out for being a "noob", even if you don't know how to invite the BOT to your server, we'll help you!
+                          <p>@include('_partials.discInvite')
+                      </div>
                       </div>
                     </div>
                   </div>
