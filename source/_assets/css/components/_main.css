@@ -283,8 +283,17 @@ body{
   opacity:1 !important;
   color:#f6f6f7 !important;
 }
+.category:after {
+    position: absolute;
+    content: "";
+    bottom: -40px;
+    height: 40px;
+    width: 1px;
+}
 .category{
   color: #72767d;
+  margin-top:10px;
+  margin-bottom:10px;
   font-size: 11px;
   font-weight: bolder;
   line-height: 20px;
@@ -532,7 +541,7 @@ body{
 strong{color:#dcdcdc !important;}
 .discord-mockup .messages-panel .messages-group .messages .message .icon {
   float: left;
-  height: 400px;
+  height: 600px;
   width: 40px;
   margin-right: 20px;
 }

@@ -73,13 +73,13 @@
             </div>
 
             <a href="#" style="width:220px;top:30px;">
-               <div class="item trigger-group active mt-32" data="default">support</div>
+               <div class="item trigger-group" data="default">support</div>
              </a>
              <a href="#" style="width:220px;top:30px;">
-                <div class="item trigger-group active mt-32" data="default">bugs</div>
+                <div class="item trigger-group" data="default">bugs</div>
               </a>
               <a href="#" style="width:220px;top:30px;">
-                 <div class="item trigger-group active mt-32" data="default">known-issues</div>
+                 <div class="item trigger-group" data="default">known-issues</div>
                </a>
             </div>
           </div>
