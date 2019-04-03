@@ -124,31 +124,31 @@ body{
   .discord-mockup {
     flex-direction: column;
   }
-  .discord-mockup .items-panel {
+  .discord-mockup, .items-panel {
     width: 100% !important;
     height: 80px !important;
   }
-  .discord-mockup .items-panel .actions {
+  .discord-mockup, .items-panel, .actions {
     display: none !important;
   }
-  .discord-mockup .items-panel .items {
+  .discord-mockup, .items-panel, .items {
     flex-direction: row !important;
   }
-  .discord-mockup .items-panel .items .item {
+  .discord-mockup, .items-panel, .items .item {
     margin: auto 10px 0 0 !important;
   }
-  .discord-mockup .sidebar-panel {
+  .discord-mockup, .sidebar-panel {
     width: 100% !important;
     height: 120px !important;
   }
-  .discord-mockup .sidebar-panel .header {
+  .discord-mockup, .sidebar-panel .header {
     display: none !important;
   }
-  .discord-mockup .sidebar-panel .items {
+  .discord-mockup, .sidebar-panel .items {
     margin-top: 0 !important;
   }
 }
-.discord-mockup .section-header, .discord-mockup .sidebar-panel .header, .discord-mockup .messages-panel .messages-group .header {
+.discord-mockup, .section-header, .discord-mockup .sidebar-panel, .header, .discord-mockup, .messages-panel, .messages-group, .header {
   position: absolute;
   z-index: 1;
   height: 56px;
@@ -159,9 +159,9 @@ body{
   margin-bottom: 20px;
   font-weight: bold;
 }
-.discord-mockup .items-panel {
+.discord-mockup, .items-panel {
   background: #1e2124;
-  height: inherit;
+  height: 100vh;
   width: 80px;
   padding: 15px;
 }
@@ -169,12 +169,6 @@ body{
   height: 20px;
   display: flex;
   margin-bottom: 10px;
-}
-.discord-mockup .items-panel .actions .action-item, .discord-mockup .items-panel .actions .close, .discord-mockup .items-panel .actions .minimize, .discord-mockup .items-panel .actions .zoom {
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  margin: auto;
 }
 .discord-mockup .items-panel .actions .action-item:hover, .discord-mockup .items-panel .actions .close:hover, .discord-mockup .items-panel .actions .minimize:hover, .discord-mockup .items-panel .actions .zoom:hover {
   filter: brightness(2);
@@ -228,7 +222,7 @@ body{
 }
 .discord-mockup .sidebar-panel {
   background: #2e3136;
-  height: inherit;
+  height: 100vh;
   overflow-y: auto;
   width: 240px;
   flex-shrink: 1;
@@ -498,7 +492,7 @@ body{
   font-size: 0.5rem;
   z-index: 5;
 }
-.discord-mockup .sidebar-panel .items .item:hover {
+.discord-mockup, .sidebar-panel, .items .item:hover {
   opacity: 1;
   background: rgba(79,84,92,.2);
 }
