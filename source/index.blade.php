@@ -160,7 +160,7 @@
                   <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:38</span></div>
                   <div class="content">
                     You can see all the templates here! <br>
-                    <img src="https://discordapp.com/assets/6fc965fbef1b4aeb6167f652cd0544fc.svg" class="emoji" alt=":point_right:" draggable="false"><strong> https://discord.style/</strong>
+                    <img src="https://discordapp.com/assets/6fc965fbef1b4aeb6167f652cd0544fc.svg" class="emoji" alt=":point_right:" draggable="false">&nbsp; <strong>https://discord.style/</strong>
                    </div>
                   </div>
                 </div>
