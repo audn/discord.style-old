@@ -122,7 +122,7 @@
                    <div class="content"><strong>discord.style</strong> <span style="color:hsla(0,0%,100%,.6)">joined the server</span></div>
                  </div>
                 </div>
-                div class="message">
+                <div class="message">
                 <div class="icon"><img class="responsive-img" src="http://gnarbot.xyz/img/profile.jpg"/></div>
                 <div class="body">
                   <div class="user-name">Gnar</div>
