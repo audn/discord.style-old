@@ -214,7 +214,7 @@
                 <div class="body">
                   <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:40</span></div>
                   <div class="embed-wrapper">
-                    <div class="color-pill"></div>
+                    <div class="color-pill-green"></div>
                     <div class="content-inner">
                       <div class="content">
                         <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
