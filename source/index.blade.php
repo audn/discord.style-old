@@ -113,18 +113,12 @@
                           Join our Discord server! We're always online to answer your questions, and we won't call you out for being a "noob", even if you don't know how to invite the BOT to your server, we'll help you!
                           <p>@include('_partials.discInvite')
                             <div class="message">
-                            <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
-                            <div class="body">
-                            <div class="user-name">audn</div>
-                            <div class="content">
-                              <div class="body">
-                                <strong>Streamer templates!</strong><br>
-                                Template for Content Creators, such as Streamers or Youtubers.
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                           <div class="icon"><img class="responsive-img pl-2" src="https://i.imgur.com/0z3EQVg.png"/></div>
+                           <div class="body">
+                             <div class="content"><strong>discord.style</strong> <span style="color:hsla(0,0%,100%,.6)">joined the server</span></div>
+                           </div>
+                         </div>
+                       </div>
                       </div>
                     </div>
                   </div>
