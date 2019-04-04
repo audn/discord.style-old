@@ -112,6 +112,18 @@
                           <strong>Real invite</strong><br>
                           Join our Discord server! We're always online to answer your questions, and we won't call you out for being a "noob", even if you don't know how to invite the BOT to your server, we'll help you!
                           <p>@include('_partials.discInvite')
+                            <div class="message">
+                            <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
+                            <div class="body">
+                            <div class="user-name">audn</div>
+                            <div class="content">
+                              <div class="body">
+                                <strong>Streamer templates!</strong><br>
+                                Template for Content Creators, such as Streamers or Youtubers.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       </div>
                     </div>
