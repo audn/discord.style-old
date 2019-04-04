@@ -347,6 +347,9 @@ body{
 .height16-2Lv3qA {
     line-height: 16px;
 }
+.body{
+  margin-left: 60px !important;
+}
 .size12-3R0845 {
     font-size: 12px !important;
 }
@@ -606,7 +609,6 @@ strong{color:#dcdcdc !important;}
 }
 .discord-mockup .messages-panel .messages-group .messages .message .body .embed-wrapper .content-inner .title {
   color: white;
-  margin-left: 60px;
 }
 .role-main{
   color:#E0003B !important;
