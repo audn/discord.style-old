@@ -130,9 +130,9 @@
                 </div>
               </div>
               <div class="message">
-                <div class="icon"><img class="responsive-img" src="http://gnarbot.xyz/img/profile.jpg"/></div>
+                <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
                 <div class="body">
-                  <div class="user-name">Gnar</div>
+                  <div class="user-name">discord.style <span id="bot">BOT</span></div>
                   <div class="embed-wrapper">
                     <div class="color-pill"></div>
                     <div class="content-inner">
