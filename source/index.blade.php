@@ -122,6 +122,29 @@
                    <div class="content"><strong>discord.style</strong> <span style="color:hsla(0,0%,100%,.6)">joined the server</span></div>
                  </div>
                 </div>
+                div class="message">
+                <div class="icon"><img class="responsive-img" src="http://gnarbot.xyz/img/profile.jpg"/></div>
+                <div class="body">
+                  <div class="user-name">Gnar</div>
+                  <div class="content">Non-embedded message.</div>
+                </div>
+              </div>
+              <div class="message">
+                <div class="icon"><img class="responsive-img" src="http://gnarbot.xyz/img/profile.jpg"/></div>
+                <div class="body">
+                  <div class="user-name">Gnar</div>
+                  <div class="embed-wrapper">
+                    <div class="color-pill"></div>
+                    <div class="content-inner">
+                      <div class="content">
+                        <div class="title"><img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false"> <strong>Sup fellow Discordians!</strong> I've been summoned by Wumpus to style your Discord server, am I in the right place?</div>
+                        <p>You can start by doing <span id="markdown">ds.templates</span>! If you need anything, our <span id="markdown">ds.help</span> command should cover for you, but if not, don't hesitate joining our official Discord for support.</p>
+                      </div>
+                    <img alt="cute doggo" src="https://images-ext-2.discordapp.net/external/GlSZ4vv-ICKQrHsXJST-YY4iKzeYD22jwi3UZBAJy7k/https/media1.tenor.com/images/2c8d007f9afac75dcb49b8ec76b92e19/tenor.gif?format=png&amp;width=400&amp;height=200" style="width: 400px; height: 199px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
               </div>
               </div>
               <div class="messages-group hide-unless-show" id="streamer">
