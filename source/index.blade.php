@@ -112,17 +112,17 @@
                           <strong>Real invite</strong><br>
                           Join our Discord server! We're always online to answer your questions, and we won't call you out for being a "noob", even if you don't know how to invite the BOT to your server, we'll help you!
                           <p>@include('_partials.discInvite')
-                            <div class="message">
-                           <div class="icon"><img class="responsive-img pl-2" src="https://i.imgur.com/0z3EQVg.png"/></div>
-                           <div class="body">
-                             <div class="content"><strong>discord.style</strong> <span style="color:hsla(0,0%,100%,.6)">joined the server</span></div>
-                           </div>
-                         </div>
                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="message">
+                  <div class="icon"><img class="responsive-img pl-2" src="https://i.imgur.com/0z3EQVg.png"/></div>
+                  <div class="body">
+                   <div class="content"><strong>discord.style</strong> <span style="color:hsla(0,0%,100%,.6)">joined the server</span></div>
+                 </div>
                 </div>
+              </div>
               </div>
               <div class="messages-group hide-unless-show" id="streamer">
                 <div class="header">streamer</div>
