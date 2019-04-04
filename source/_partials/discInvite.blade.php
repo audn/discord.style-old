@@ -19,7 +19,7 @@
   </div>
   <button type="button" class="button-3To2tQ height20-mO2eIN button-38aScr lookFilled-1Gx00P  colorGreen-29iAKY buttonSize-DbrWhv grow-q77ONN">
     <div class="contents-18-Yxp buttonInner-1IRxqd">
-      <div class="buttonContent-18Mz6_">Join</div>
+      <div class="buttonContent-18Mz6_"><a class="no-underline text-white"href="https://discord.gg/8kSnjNN">Join</a></div>
     </div>
   </button>
 </div>
