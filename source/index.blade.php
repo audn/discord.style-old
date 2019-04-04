@@ -190,7 +190,7 @@
                         <strong style="color:white;">Mention a valid template!</strong><p><br>
                         <p>You need to mention a valid template to load in! You can get a list off all the templates by doing <span id="markdown">ds.templates!</span></p>
                         <p><br>
-                          <img alt="cute doggo" src="https://images-ext-2.discordapp.net/external/wB4Z9aLJIH0pIDv4ChIKHMnYmxCnDNKjKUpJH-N6wMc/https/media.tenor.com/images/79bd3003483eee230c13a077cc331a00/tenor.gif" style="width: 400px; border-radius: 0.4em;; height: 199px;">
+                          <img alt="cute doggo" src="https://images-ext-2.discordapp.net/external/wB4Z9aLJIH0pIDv4ChIKHMnYmxCnDNKjKUpJH-N6wMc/https/media.tenor.com/images/79bd3003483eee230c13a077cc331a00/tenor.gif" style="width: 119px; border-radius: 0.4em;; height: 90px;">
                       </div>
                     </div>
                   </div>
@@ -218,10 +218,28 @@
                     <div class="content-inner">
                       <div class="content">
                         <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
-                        <strong style="color:white;">Loading in!</strong><p><br>
+                        <strong style="color:white;">Loading in!</strong><p>
                         <p>Might take up to 5 minutes, depending on the size of the template!</p>
                         <p><br>
                           <img alt="cute doggo" src="https://media1.tenor.com/images/1f84b096cbe1cc9f3763c803bb17e10e/tenor.gif?itemid=5878976" style="width: 400px; border-radius: 0.4em;; height: 199px;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
+                <div class="body">
+                  <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:42</span></div>
+                  <div class="embed-wrapper">
+                    <div class="color-pill-green"></div>
+                    <div class="content-inner">
+                      <div class="content">
+                        <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
+                        <strong style="color:white;">Ladies and gentlemen, we got em</strong><p><br>
+                        <p>Successfully loaded in template <strong>1</strong>!</p>
+                        <p><br>
+                          <img alt="cute doggo" src="https://media.tenor.com/images/24a645c2860aaf2170ca56eb2c6534fd/tenor.gif" style="width: 124px; border-radius: 0.4em;; height: 90px;">
                       </div>
                     </div>
                   </div>
