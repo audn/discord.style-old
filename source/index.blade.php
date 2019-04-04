@@ -236,7 +236,7 @@
                     <div class="content-inner">
                       <div class="content">
                         <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
-                        <strong style="color:white;">Ladies and gentlemen, we got em</strong><p><br>
+                        <strong style="color:white;">Ladies and gentlemen, we got em</strong><p>
                         <p>Successfully loaded in template <strong>1</strong>!</p>
                         <p><br>
                           <img alt="cute doggo" src="https://media.tenor.com/images/24a645c2860aaf2170ca56eb2c6534fd/tenor.gif" style="width: 124px; border-radius: 0.4em;; height: 90px;">
