@@ -228,7 +228,7 @@ body{
 }
 .discord-mockup .sidebar-panel {
   background: #2e3136;
-  height: inherit;
+  height: 100vh;
   overflow-y: auto;
   width: 240px;
   flex-shrink: 1;
