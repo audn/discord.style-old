@@ -87,7 +87,6 @@
               <div class="messages-group hide-unless-show" id="default">
                 <div class="header">general</div>
                 <div class="messages">
-
                   <div class="message">
                       <div class="icon pfp column">
                         <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
@@ -122,13 +121,6 @@
                    <div class="content"><strong>discord.style</strong> <span style="color:hsla(0,0%,100%,.6)">joined the server</span></div>
                  </div>
                 </div>
-                <div class="message">
-                <div class="icon"><img class="responsive-img" src="http://gnarbot.xyz/img/profile.jpg"/></div>
-                <div class="body">
-                  <div class="user-name">Gnar</div>
-                  <div class="content">Non-embedded message.</div>
-                </div>
-              </div>
               <div class="message">
                 <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
                 <div class="body">
