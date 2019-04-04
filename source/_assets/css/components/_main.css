@@ -536,7 +536,6 @@ body{
 strong{color:#dcdcdc !important;}
 .discord-mockup .messages-panel .messages-group .messages .message .icon {
   float: left;
-  height: 600px;
   width: 40px;
   margin-right: 20px;
 }
