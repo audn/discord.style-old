@@ -138,6 +138,96 @@
                   </div>
                 </div>
               </div>
+              <div class="message">
+                  <div class="icon pfp column">
+                    <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
+                 </div>
+                <div class="body">
+                  <div class="msg column">
+                  <div class="user-name">audn <span class="timestamp">Today at 13:38</span></div>
+                  <div class="content">
+                    ds.templates
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                  <div class="icon pfp column">
+                    <img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/>
+                 </div>
+                <div class="body">
+                  <div class="msg column">
+                  <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:38</span></div>
+                  <div class="content">
+                    You can see all the templates here! <br>
+                    <img src="https://discordapp.com/assets/6fc965fbef1b4aeb6167f652cd0544fc.svg" class="emoji" alt=":point_right:" draggable="false"><strong> https://discord.style/</strong>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                  <div class="icon pfp column">
+                    <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
+                 </div>
+                <div class="body">
+                  <div class="msg column">
+                  <div class="user-name">audn <span class="timestamp">Today at 13:39</span></div>
+                  <div class="content">
+                    ds.load
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
+                <div class="body">
+                  <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:39</span></div>
+                  <div class="embed-wrapper">
+                    <div class="color-pill"></div>
+                    <div class="content-inner">
+                      <div class="content">
+                        <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
+                        <strong style="color:white;">Mention a valid template!</strong><p><br>
+                        <p>You need to mention a valid template to load in! You can get a list off all the templates by doing <span id="markdown">ds.templates!</span></p>
+                        <p><br>
+                          <img alt="cute doggo" src="https://images-ext-2.discordapp.net/external/wB4Z9aLJIH0pIDv4ChIKHMnYmxCnDNKjKUpJH-N6wMc/https/media.tenor.com/images/79bd3003483eee230c13a077cc331a00/tenor.gif" style="width: 400px; border-radius: 0.4em;; height: 199px;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                  <div class="icon pfp column">
+                    <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
+                 </div>
+                <div class="body">
+                  <div class="msg column">
+                  <div class="user-name">audn <span class="timestamp">Today at 13:40</span></div>
+                  <div class="content">
+                    ds.load 1
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message">
+                <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
+                <div class="body">
+                  <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:40</span></div>
+                  <div class="embed-wrapper">
+                    <div class="color-pill"></div>
+                    <div class="content-inner">
+                      <div class="content">
+                        <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
+                        <strong style="color:white;">Loading in!</strong><p><br>
+                        <p>Might take up to 5 minutes, depending on the size of the template!</p>
+                        <p><br>
+                          <img alt="cute doggo" src="https://media1.tenor.com/images/1f84b096cbe1cc9f3763c803bb17e10e/tenor.gif?itemid=5878976" style="width: 400px; border-radius: 0.4em;; height: 199px;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               </div>
               </div>
               <div class="messages-group hide-unless-show" id="streamer">
