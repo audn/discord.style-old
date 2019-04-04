@@ -117,7 +117,7 @@
                     </div>
                   </div>
                   <div class="message">
-                  <div class="icon"><img class="responsive-img pl-2" src="https://i.imgur.com/0z3EQVg.png"/></div>
+                  <div class="icon"><img class="responsive-img pl-2" src="https://discordapp.com/assets/b8029fe196b8f1382e90bbe81dab50dc.svg"/></div>
                   <div class="body">
                    <div class="content"><strong>discord.style</strong> <span style="color:hsla(0,0%,100%,.6)">joined the server</span></div>
                  </div>
