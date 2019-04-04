@@ -586,7 +586,7 @@ strong{color:#dcdcdc !important;}
   color:#dcddde
 }
 .user-name{
-  margin-bottom:3px;
+  margin-block-end: 0.83em;
 }
 .timestamp{
   font-size: 0.75rem;
