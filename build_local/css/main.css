@@ -1349,8 +1349,20 @@ strong {
   color: #dcddde;
 }
 
+@-webkit-keyframes slide {
+  100% {
+    right: 20px;
+  }
+}
+
+@keyframes slide {
+  100% {
+    right: 20px;
+  }
+}
+
 .user-name {
-  margin-bottom: .83em;
+  margin-bottom: .23em;
 }
 
 .timestamp {

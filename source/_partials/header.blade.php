@@ -41,7 +41,7 @@
   position: fixed;
   bottom: 20px;
   padding: 25px;
-  right: 25px;
+  right: -905px;
   width: 400px;
   height: 200px;
   display: block;
@@ -54,6 +54,10 @@
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
 }
 
 ul {

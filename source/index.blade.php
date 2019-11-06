@@ -81,6 +81,19 @@
               <a href="#" style="width:220px;top:30px;">
                  <div class="item trigger-group" data="default">known-issues</div>
                </a>
+
+               <a href="#" class="absolute" style="width:220px;top:30px;">
+                 <a href="#" style="width:220px;top:30px;bottom:0;">
+                    <div class="fixed" style="bottom:33px;background:#292b2f;padding:10px;margin-left: -10px;width: 240px;"data="default">
+                    <div class="icon pfp column">
+    	                 <img class="responsive-img float-left" src="/img/audun.png" style="border-radius:50%;margin-right:10px;width:32px;">
+    	                </div>
+                      <div class="user-name text-white font-bold">audn </div>
+                      <font style="color:#999b9c;font-size:10px;">#0001</font>
+                    </div>
+                  </a>
+                </a>
+
             </div>
           </div>
             <div class="messages-panel">
@@ -89,7 +102,7 @@
                 <div class="messages">
                   <div class="message">
                       <div class="icon pfp column">
-                        <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
+                        <img class="responsive-img" src="/img/audun.png"/>
                      </div>
                     <div class="body">
                       <div class="msg column">
@@ -140,7 +153,7 @@
               </div>
               <div class="message">
                   <div class="icon pfp column">
-                    <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
+                    <img class="responsive-img" src="/img/audun.png"/>
                  </div>
                 <div class="body">
                   <div class="msg column">
@@ -167,7 +180,7 @@
               </div>
               <div class="message">
                   <div class="icon pfp column">
-                    <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
+                    <img class="responsive-img" src="/img/audun.png"/>
                  </div>
                 <div class="body">
                   <div class="msg column">
@@ -198,7 +211,7 @@
               </div>
               <div class="message">
                   <div class="icon pfp column">
-                    <img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/>
+                    <img class="responsive-img" src="/img/audun.png"/>
                  </div>
                 <div class="body">
                   <div class="msg column">
@@ -252,7 +265,7 @@
                 <div class="header">streamer</div>
                 <div class="messages">
                   <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
+                    <div class="icon"><img class="responsive-img" src="/img/audun.png"/></div>
                     <div class="body">
                       <div class="user-name">audn</div>
                       <div class="content">
@@ -269,7 +282,7 @@
                 <div class="header">streamer</div>
                 <div class="messages">
                   <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
+                    <div class="icon"><img class="responsive-img" src="/img/audun.png"/></div>
                     <div class="body">
                       <div class="user-name">audn</div>
                       <div class="content">
@@ -285,7 +298,7 @@
                 <div class="header">streamer</div>
                 <div class="messages">
                   <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
+                    <div class="icon"><img class="responsive-img" src="/img/audun.png"/></div>
                     <div class="body">
                       <div class="user-name">audn</div>
                       <div class="content">
@@ -300,29 +313,13 @@
               <div class="messages-group hide-unless-show" id="add-server">
                 <div class="header">Adding server</div>
                 <div class="messages">
-                  <div class="message">
-                    <div class="icon"><img class="responsive-img" src="https://pbs.twimg.com/profile_images/1106214503069429763/Y8VhNXcd_400x400.png"/></div>
+                  <div class="message" style="border: 0px !important;margin-top: 4rem;">
                     <div class="body">
-                      <div class="user-name">audn</div>
-                      <div class="content">Add your server on our website!
-                        <div class="body">
-                          <div class="embed-wrapper">
-                            <div class="color-pill"></div>
-                            <div class="content-inner">
-                              <div class="content">
-                                <div class="title">Partnership</div>
-                                <p>audn#0001</p>
-                                <p>audunhilden@live.no</p>
-                                <p>Average 240 daily views</p><br/>
-                                <p><b>
-                                    <u>Quick contact  </u></b></p>
-                                <p>Avg. </p>
-                                <p>Avg. </p>
-                                <p>Avg. </p>
-                              </div><img class="thumb" src="https://i.imgur.com/0z3EQVg.png"/>
-                            </div>
-                          </div>
-                        </div>
+                      <div class="content">
+                        <h4 class="text-white font-bold">Make your own template!</h4>
+                        <p>
+                          <br>
+                          Customize your own server on our website! Just add a channel, rename it to whatever you'd like, and click the big green button when done!
                       </div>
                     </div>
                   </div>
