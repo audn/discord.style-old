@@ -84,7 +84,7 @@
 
                <a href="#" class="absolute" style="width:220px;top:30px;">
                  <a href="#" style="width:220px;top:30px;bottom:0;">
-                    <div class="fixed" style="bottom:33px;background:#292b2f;padding:10px;margin-left: -10px;width: 240px;"data="default">
+                    <div class="relative" style="margin-top:193px;background:#292b2f;padding:10px;margin-left: -10px;width: 240px;"data="default">
                     <div class="icon pfp column">
     	                 <img class="responsive-img float-left" src="/img/audun.png" style="border-radius:50%;margin-right:10px;width:32px;">
     	                </div>
@@ -315,7 +315,8 @@
                 <div class="messages">
                   <div class="message" style="border: 0px !important;margin-top: 4rem;">
                     <div class="body">
-                      <div class="content">
+                      <div class="wrapper">
+                      <div class="content">    
                         <h4 class="text-white font-bold">Make your own template!</h4>
                         <p>
                           <br>
@@ -331,6 +332,6 @@
         </div>
       </div>
     </div>
-
+  </div>
 
 @endsection
