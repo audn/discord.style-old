@@ -58,7 +58,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="description" content="">
-	<link rel="stylesheet" href="/css/main.css?d26fbdbb3105139c8303761b49f0d7ad">
+	<link rel="stylesheet" href="/css/main.css?1d8165b6091738afe1a9dde415d6b9dc">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png?v=M4mO9xng8d">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=M4mO9xng8d">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=M4mO9xng8d">
@@ -170,12 +170,9 @@
 	<script type="text/javascript" src="/js/main.js?43871de5e777763011e8b1b449dfbdb6"></script> 
 	<script>
 
-	docReady(function() {
 	var slidesElem = document.querySelector(".slides");
 	var slideSize = getSize(document.querySelector(".item"));
-	var pckry = new Packery(slidesElem, {
-	  rowHeight: slideSize.outerHeight
-	});
+	var pckry = new Packery(slidesElem);
 	// get item elements
 	var itemElems = pckry.getItemElements();
 	// for each item...
@@ -198,7 +195,6 @@
 	  } else {
 	    slidesElem.appendChild(draggedItem.element);
 	  }
-	});
 	});
 
 	(function($) {

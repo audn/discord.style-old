@@ -761,7 +761,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 80%;
+  height: 90%;
 }
 
 .discord-mockup {
@@ -830,7 +830,7 @@ body {
 
 .discord-mockup .items-panel {
   background: #1e2124;
-  height: inherit;
+  height: 100vh;
   width: 80px;
   padding: 15px;
 }
@@ -916,7 +916,7 @@ body {
 
 .discord-mockup .sidebar-panel {
   background: #2e3136;
-  height: inherit;
+  height: 100vh;
   overflow-y: auto;
   width: 240px;
   flex-shrink: 1;
@@ -983,8 +983,9 @@ body {
 
 .category {
   color: #72767d;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 11px;
-  transition: all .2s;
   font-weight: bolder;
   line-height: 20px;
   text-transform: uppercase;
@@ -1017,7 +1018,6 @@ body {
           box-sizing: border-box;
   padding: 10px 15px 10px 10px;
   width: 450px;
-  margin-left: 60px;
   margin-top: 10px;
 }
 
@@ -1055,6 +1055,10 @@ body {
 
 .height16-2Lv3qA {
   line-height: 16px;
+}
+
+.body {
+  margin-left: 60px !important;
 }
 
 .size12-3R0845 {
@@ -1234,7 +1238,7 @@ body {
 }
 
 .discord-mockup .messages-panel {
-  height: inherit;
+  height: 100vh;
   overflow-y: auto;
   flex: 1;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -1277,9 +1281,12 @@ body {
   padding: 15px 0 15px;
 }
 
+strong {
+  color: #dcdcdc !important;
+}
+
 .discord-mockup .messages-panel .messages-group .messages .message .icon {
   float: left;
-  height: 220px;
   width: 40px;
   margin-right: 20px;
 }
@@ -1333,7 +1340,7 @@ body {
 .discord-mockup .messages-panel .messages-group .messages .message .body .embed-wrapper .content-inner .content {
   word-wrap: break-word;
   flex: 1;
-  max-width: 300px;
+  max-width: 400px;
   color: rgba(255, 255, 255, .7);
   font-size: 14px;
 }
@@ -1343,7 +1350,7 @@ body {
 }
 
 .user-name {
-  margin-bottom: 3px;
+  margin-bottom: .83em;
 }
 
 .timestamp {
