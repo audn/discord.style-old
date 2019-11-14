@@ -10,6 +10,7 @@
   </header>
 </div>
 -->
+<!--
 <div id="construction">
   <div class="overlay">
     <strong>
@@ -22,7 +23,7 @@
       We're sorry for the delay, but we promise it's worth it!
       </font>
   </div>
-</div>
+</div>-->
 <style>
 
 .overlay{

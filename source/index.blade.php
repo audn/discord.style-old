@@ -316,11 +316,36 @@
                   <div class="message" style="border: 0px !important;margin-top: 4rem;">
                     <div class="body">
                       <div class="wrapper">
-                      <div class="content">    
-                        <h4 class="text-white font-bold">Make your own template!</h4>
+                      <div class="content" style="text-align:center;">
+                        <img src="/img/welcome.png" class="w-64">
+                        <p>
+                        <br>
+                        <h4 class="text-white font-bold text-3xl">Make your own template!</h4>
                         <p>
                           <br>
                           Customize your own server on our website! Just add a channel, rename it to whatever you'd like, and click the big green button when done!
+
+                          <p>
+
+                          <div class="content" style="margin-top:25px;">
+                            <div class="select">
+                              <div id="text">
+                                <i class="fas fa-gamepad-alt"><!-- icon --></i>
+                                <p>
+                                  Gaming Server
+                              </div>
+                            </div>
+                            <div class="select">
+                              <div id="text">
+                                Content Creator
+                              </div>
+                            </div>
+                          <div class="select">
+                            <div id="text">
+                              Study Group
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
