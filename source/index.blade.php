@@ -100,165 +100,57 @@
               <div class="messages-group hide-unless-show" id="default">
                 <div class="header">general</div>
                 <div class="messages">
-                  <div class="message">
-                      <div class="icon pfp column">
-                        <img class="responsive-img" src="/img/audun.png"/>
-                     </div>
-                    <div class="body">
-                      <div class="msg column">
-                      <div class="user-name">audn <span class="timestamp">Today at 13:37</span></div>
-                      <div class="content">
-                          <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false"> Tired of designing your own Discord server? So am I. Today, I'll take you on a ride through discord.style!
-                          <p><br>
-                          We're a website featuring awesome Discord templates for your server! You don't even need to install anything, as it's all done over our Discord bot! You just invite it to your server, and read the quick tutorial!
+                  <div class="message" style="border: 1px solid transparent;">
+                     <div class="body">
+                       <div class="wrappers">
+                       <div class="content" style="text-align:left;">
+                         <img src="/img/wumpus.png" class="w-64">
+                         <p>
+                         <br>
+                         <h4 class="text-white font-bold text-3xl">Get pre-made templates!</h4>
+                         <p>
+                           <br>
+                           We all hate to add tons of text-channels in our Discord server, and find fancy symbols to use.. right? That's why we're introducing <strong>discord.style</strong>
+                           <div style="margin-top:25px;">
 
-                          <p><br>
-                          <strong>It's super easy!</strong> You can watch the video in #video if you don't believe us yet.
-                          <p><br>
-                          <strong>Editing templates</strong><br>
-                          Not satisfied with the template? No worries! You can drag the channels around, change the channel names, and delete whatever you'd like to! <i>(Everything will go back to normal after you refresh, so be careful!)</i>
-                          <p><br>
-                          <strong>Why should I use this</strong><br>
-                          We offer a cool Discord bot that will do it all for you! Our bot will load in the template you want to get, by <span id="markdown">ds.load </span> <name>, and make a backup of the one you currently have. <i>(The backup part is something you need to do yourself, before loading in the template!)</i>
-                          <p><br>
-                          <strong>Real invite</strong><br>
-                          Join our Discord server! We're always online to answer your questions, and we won't call you out for being a "noob", even if you don't know how to invite the BOT to your server, we'll help you!
-                          <p>@include('_partials.discInvite')
                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="message">
-                  <div class="icon"><img class="responsive-img pl-2" src="https://discordapp.com/assets/b8029fe196b8f1382e90bbe81dab50dc.svg"/></div>
-                  <div class="body">
-                   <div class="content"><strong>discord.style</strong> <span style="color:hsla(0,0%,100%,.6)">joined the server</span></div>
-                 </div>
-                </div>
-              <div class="message">
-                <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
-                <div class="body">
-                  <div class="user-name">discord.style <span id="bot">BOT</span></div>
-                  <div class="embed-wrapper">
-                    <div class="color-pill"></div>
-                    <div class="content-inner">
-                      <div class="content">
-                        <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false"> <strong>Sup fellow Discordians!</strong> I've been summoned by Wumpus to style your Discord server, am I in the right place?<p><br>
-                        <p>You can start by doing <span id="markdown">ds.templates</span>! If you need anything, our <span id="markdown">ds.help</span> command should cover for you, but if not, don't hesitate joining our official Discord for support.</p>
-                        <p><br>
-                          <img alt="cute doggo" src="https://media1.tenor.com/images/2c8d007f9afac75dcb49b8ec76b92e19/tenor.gif" style="width: 400px; border-radius: 0.4em;; height: 199px;">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="message">
-                  <div class="icon pfp column">
-                    <img class="responsive-img" src="/img/audun.png"/>
-                 </div>
-                <div class="body">
-                  <div class="msg column">
-                  <div class="user-name">audn <span class="timestamp">Today at 13:38</span></div>
-                  <div class="content">
-                    ds.templates
+                     </div>
                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="message">
-                  <div class="icon pfp column">
-                    <img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/>
-                 </div>
-                <div class="body">
-                  <div class="msg column">
-                  <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:38</span></div>
-                  <div class="content">
-                    You can see all the templates here! <br>
-                    <img src="https://discordapp.com/assets/6fc965fbef1b4aeb6167f652cd0544fc.svg" class="emoji" alt=":point_right:" draggable="false">&nbsp; <strong>https://discord.style/</strong>
-                   </div>
-                  </div>
-                </div>
-              </div>
-              <div class="message">
-                  <div class="icon pfp column">
-                    <img class="responsive-img" src="/img/audun.png"/>
-                 </div>
-                <div class="body">
-                  <div class="msg column">
-                  <div class="user-name">audn <span class="timestamp">Today at 13:39</span></div>
-                  <div class="content">
-                    ds.load
-                   </div>
-                  </div>
-                </div>
-              </div>
-              <div class="message">
-                <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
-                <div class="body">
-                  <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:39</span></div>
-                  <div class="embed-wrapper">
-                    <div class="color-pill"></div>
-                    <div class="content-inner">
-                      <div class="content">
-                        <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
-                        <strong style="color:white;">Mention a valid template!</strong><p><br>
-                        <p>You need to mention a valid template to load in! You can get a list off all the templates by doing <span id="markdown">ds.templates!</span></p>
-                        <p><br>
-                          <img alt="cute doggo" src="https://images-ext-2.discordapp.net/external/wB4Z9aLJIH0pIDv4ChIKHMnYmxCnDNKjKUpJH-N6wMc/https/media.tenor.com/images/79bd3003483eee230c13a077cc331a00/tenor.gif" style="width: 119px; border-radius: 0.4em;; height: 90px;">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="message">
-                  <div class="icon pfp column">
-                    <img class="responsive-img" src="/img/audun.png"/>
-                 </div>
-                <div class="body">
-                  <div class="msg column">
-                  <div class="user-name">audn <span class="timestamp">Today at 13:40</span></div>
-                  <div class="content">
-                    ds.load 1
-                   </div>
-                  </div>
-                </div>
-              </div>
-              <div class="message">
-                <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
-                <div class="body">
-                  <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:40</span></div>
-                  <div class="embed-wrapper">
-                    <div class="color-pill-green"></div>
-                    <div class="content-inner">
-                      <div class="content">
-                        <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
-                        <strong style="color:white;">Loading in!</strong><p>
-                        <p>Might take up to 5 minutes, depending on the size of the template!</p>
-                        <p><br>
-                          <img alt="cute doggo" src="https://media1.tenor.com/images/1f84b096cbe1cc9f3763c803bb17e10e/tenor.gif?itemid=5878976" style="width: 400px; border-radius: 0.4em;; height: 199px;">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="message">
-                <div class="icon"><img class="responsive-img" src="https://i.imgur.com/0z3EQVg.png"/></div>
-                <div class="body">
-                  <div class="user-name">discord.style <span id="bot">BOT</span><span class="timestamp"> Today at 13:42</span></div>
-                  <div class="embed-wrapper">
-                    <div class="color-pill-green"></div>
-                    <div class="content-inner">
-                      <div class="content">
-                        <img src="https://discordapp.com/assets/c90098069e61110397d4552647ade33d.svg" class="emoji" alt=":sparkles:" draggable="false">
-                        <strong style="color:white;">Ladies and gentlemen, we got em</strong><p>
-                        <p>Successfully loaded in template <strong>1</strong>!</p>
-                        <p><br>
-                          <img alt="cute doggo" src="https://media.tenor.com/images/24a645c2860aaf2170ca56eb2c6534fd/tenor.gif" style="width: 124px; border-radius: 0.4em;; height: 90px;">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                   <h4 class="text-grey text-lg" style="margin-top:40px !important;">
+                     Discover amazing templates made by our users!
+                   </h4>
+                   <div style="border-bottom:solid 1px #3a3d46">&nbsp;</div>
 
+                    <div class="stock">
+                      <div class="stockphoto">
+                        Pewdiepie
+                      </div>
+                      <div class="info">
+                          <span id="title">Pewdiepie</span>
+                          <span id="content">Copy of Pewdiepie official Discord server!</div>
+                      </div>
+
+                      <div class="stock">
+                        <div class="stockphoto">
+                           Streamer
+                        </div>
+                        <div class="info">
+                            <span id="title">Twitch Streamer</span>
+                            <span id="content">A perfect template for Twitch Streamers!</div>
+                        </div>
+
+
+                      <div class="stock">
+                        <div class="stockphoto">
+                          Shroud
+                        </div>
+                          <div class="info">
+                            <span id="title">Shroud</span>
+                            <span id="content">Copy of Shourds official Discord server!</div>
+                        </div>
+
+                  </div>
+                </div>
               </div>
               </div>
               <div class="messages-group hide-unless-show" id="streamer">
@@ -330,7 +222,7 @@
                           <div class="content" style="margin-top:25px;">
                             <div class="select">
                               <div id="text">
-                                <i class="fas fa-gamepad-alt"><!-- icon --></i>
+                                <i class="fas fa-gamepad-alt"><!--  --></i>
                                 <p>
                                   Gaming Server
                               </div>
