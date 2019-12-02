@@ -44,10 +44,10 @@
                   <div class="item trigger-group active mt-32" data="default">general</div>
                 </a>
                 <a href="#" style="width:220px;top:60px;">
-                  <div class="item trigger-group locked" data="streamer">streamer</div>
+                  <div class="item trigger-group locked" data="tutorial">tutorial</div>
                 </a>
-                <a href="#" style="width:220px;top:90px;">
-                  <div class="item trigger-group locked" data="community">community</div>
+                <a href="https://discordapp.com/api/oauth2/authorize?client_id=559210540476530720&permissions=8&scope=bot" target="_blank" style="width:220px;top:90px;">
+                  <div class="item trigger-group locked" data="invite">invite-bot</div>
                 </a>
                 <a href="#" style="width:220px;top:120px;">
                   <div class="item trigger-group locked " data="startup">startup</div>
@@ -84,7 +84,7 @@
 
                <a href="#" class="absolute" style="width:220px;top:30px;">
                  <a href="#" style="width:220px;top:30px;bottom:0;">
-                    <div class="relative" style="margin-top:193px;background:#292b2f;padding:10px;margin-left: -10px;width: 240px;"data="default">
+                    <div class="relative" style="margin-top:190px;position:fixed;background:#292b2f;padding:10px;margin-left: -10px;width: 240px;"data="default">
                     <div class="icon pfp column">
     	                 <img class="responsive-img float-left" src="/img/audun.png" style="border-radius:50%;margin-right:10px;width:32px;">
     	                </div>
@@ -101,7 +101,7 @@
                 <div class="header">general</div>
                 <div class="messages">
                   <div class="message" style="border: 1px solid transparent;">
-                     <div class="body">
+                     <div class="body" style="margin-left:60px;">
                        <div class="wrappers">
                        <div class="content" style="text-align:left;">
                          <img src="/img/wumpus.png" class="w-64">
@@ -116,14 +116,18 @@
                        </div>
                      </div>
                    </div>
-                   <h4 class="text-grey text-lg" style="margin-top:40px !important;">
-                     Discover amazing templates made by our users!
-                   </h4>
-                   <div style="border-bottom:solid 1px #3a3d46">&nbsp;</div>
-
+                    <ul class="templateMenu">
+                      <li><a class="activetwo templateMenu" href="#">Featured</a></li>
+                      <li><a class="border-animation templateMenu"href="#">Streamers</a></li>
+                      <li><a class="border-animation templateMenu"href="#">School</a></li>
+                      <li><a class="border-animation templateMenu"href="#">Memes</a></li>
+                      <li><a class="border-animation templateMenu"href="#">Anime</a></li>
+                      <li style="float:Right;"><a class="border-animation templateMenu"href="#">See all templates</a></li>
+                    </ul>
                     <div class="stock">
-                      <div class="stockphoto">
-                        Pewdiepie
+                      <div class="stockopacity">Pewdipie</div>
+                      <div class="stockphoto" style="background-image: url(https://66.media.tumblr.com/8979dc941cefba152c8303742003352a/tumblr_otpzv7Z6Kl1wr03doo2_250.png);">
+                        &nbsp;
                       </div>
                       <div class="info">
                           <span id="title">Pewdiepie</span>
@@ -131,19 +135,21 @@
                       </div>
 
                       <div class="stock">
+                        <div class="stockopacity">Twitch Streamer</div>
                         <div class="stockphoto">
-                           Streamer
+                          &nbsp;
                         </div>
                         <div class="info">
-                            <span id="title">Twitch Streamer</span>
+                          <span id="title">Twitch Streamer</span>
                             <span id="content">A perfect template for Twitch Streamers!</div>
                         </div>
 
 
-                      <div class="stock">
-                        <div class="stockphoto">
-                          Shroud
-                        </div>
+                        <div class="stock">
+                          <div class="stockopacity">Shroud</div>
+                          <div class="stockphoto" style="background-image: url(https://i.kym-cdn.com/entries/icons/facebook/000/031/613/shroud-on-twitchoverparty-streamers-leaving-for-mixer-more.jpg);">
+                            &nbsp;
+                          </div>
                           <div class="info">
                             <span id="title">Shroud</span>
                             <span id="content">Copy of Shourds official Discord server!</div>
@@ -153,8 +159,8 @@
                 </div>
               </div>
               </div>
-              <div class="messages-group hide-unless-show" id="streamer">
-                <div class="header">streamer</div>
+              <div class="messages-group hide-unless-show" id="tutorial">
+                <div class="header">tutorial</div>
                 <div class="messages">
                   <div class="message">
                     <div class="icon"><img class="responsive-img" src="/img/audun.png"/></div>
@@ -163,15 +169,15 @@
                       <div class="content">
                         <div class="body">
                           <strong>Streamer templates!</strong><br>
-                          Template for Content Creators, such as Streamers or Youtubers.
+                          Tutorial
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="messages-group hide-unless-show" id="community">
-                <div class="header">streamer</div>
+              <div class="messages-group hide-unless-show" id="invite">
+                <div class="header">invite-bot</div>
                 <div class="messages">
                   <div class="message">
                     <div class="icon"><img class="responsive-img" src="/img/audun.png"/></div>
@@ -220,23 +226,29 @@
                           <p>
 
                           <div class="content" style="margin-top:25px;">
+
                             <div class="select">
                               <div id="text">
-                                <i class="fas fa-gamepad-alt"><!--  --></i>
+                                <i class="fas fa-gamepad-alt iconio">iconCollapsed</i>
                                 <p>
-                                  Gaming Server
+                                  <span id="type">
+                                      <i class="fas fa-gamepad-alt iconios">ss</i>
+                                  </span>
+                                  <div style="clear:both";>&nbsp;</div>
                               </div>
                             </div>
+
                             <div class="select">
                               <div id="text">
-                                Content Creator
+                                <i class="fas fa-gamepad-alt iconio">iconCollapsed</i>
+                                <p>
+                                  <span id="type">
+                                      <i class="fas fa-gamepad-alt iconios">ss</i>
+                                  </span>
+                                  <div style="clear:both";>&nbsp;</div>
                               </div>
                             </div>
-                          <div class="select">
-                            <div id="text">
-                              Study Group
-                            </div>
-                          </div>
+
                         </div>
                       </div>
                     </div>

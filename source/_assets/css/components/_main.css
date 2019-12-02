@@ -242,6 +242,7 @@ body{
 .discord-mockup .sidebar-panel .header {
   background: #2e3136;
   width: 240px;
+  position: fixed;
   border-bottom: solid 1px #23252a;
 }
 .discord-mockup .sidebar-panel::-webkit-scrollbar {
@@ -250,6 +251,7 @@ body{
 .discord-mockup .sidebar-panel .items {
   margin-top: 56px;
   padding:10px;
+  height:100%;
 }
 .discord-mockup .sidebar-panel .items .item {
   height: 36px;
@@ -347,9 +349,11 @@ body{
 .height16-2Lv3qA {
     line-height: 16px;
 }
+/*
 .body{
   margin-left: 60px !important;
 }
+*/
 .size12-3R0845 {
     font-size: 12px !important;
 }
@@ -503,6 +507,45 @@ body{
   flex: 1;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
+ul.templateMenu{
+  padding-top:50px;
+  border-bottom:solid 1px #3a3d46;
+
+}
+.activetwo{
+ border-bottom: 2px solid #fff;
+ color:white !important;
+}
+li.templateMenu {
+ float: left;
+}
+
+li a.templateMenu {
+ display: block;
+ color: #6978b0;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+li a.templateMenu:hover{
+ color:white !important;
+}
+/* Change the link color to #111 (black) on hover */
+
+.border-animation::after {
+ content: '';
+ display: block;
+ width: 0;
+ height: 2px;
+ background: #fff;
+ margin-top: 15px;
+ transition: width .3s;
+}
+
+.border-animation:hover::after {
+ width: 100%;
+ transition: width .3s;
+}
 .discord-mockup .messages-panel::-webkit-scrollbar {
   display: none;
 }
@@ -575,13 +618,29 @@ strong{color:#dcdcdc !important;}
   padding: 8px 10px;
   display: flex;
 }
+.iconio{
+  background: red;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.iconios{
+  position: absolute;
+  text-align: left !important;
+
+}
 .select{
-background-color: #292b2e;
-padding: 35px;
-float: left;
-margin:5px;
-border-radius: .4em;
-display: inline-block;
+  background-color: #292b2e;
+  float: left;
+  position: relative;
+  width:200px;
+  margin:5px;
+  border-radius: .4em;
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 #title{
   white-space: nowrap;
@@ -590,9 +649,13 @@ display: inline-block;
    font-size: 12px;
    padding:10px;
    line-height: 16px;
-   color: #b9bbbe;
+   color: #f7f7f7;
    font-weight: 700;
    text-transform: uppercase;
+}
+#text{
+  text-align: left;
+  margin-top: 25px;
 }
 #content{
  line-height: 1.3;
@@ -608,11 +671,31 @@ display: inline-block;
  -webkit-line-clamp: 3;
  -webkit-box-orient: vertical;
 }
+
+.stockopacity{
+  z-index: 2;
+  height:120px;
+  font-size: 20px;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 225px;
+  background: rgb(30, 33, 36,.6);
+  position: absolute;
+  border-top-left-radius: .4em;
+  border-top-right-radius: .4em;
+}
 .stockphoto{
  width: 225px;
+ position: relative;
  display: inline-block;
  border-top-left-radius: .4em;
  border-top-right-radius: .4em;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .info{
  margin-top:10px;
