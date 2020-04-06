@@ -92,18 +92,7 @@ h1, h2, h4, h5, p {
 	position: relative;
 	margin: 10px;
 }
-.btnF {
-	background-color: #3498db;
-	border: 0;
-	border-radius: 5px;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-	color: #fff;
-	cursor: pointer;
-	font-size: 18px;
-	padding: 15px 30px;
-	position: relative;
-	margin: 10px;
-}
+
 .btn:active {
 	box-shadow: none;
 	transform: scale(0.98);
@@ -113,7 +102,7 @@ h1, h2, h4, h5, p {
 	outline: none;
 }
 
-.btn.ghost {
+.btnF.ghost {
 	background-color: #fff;
 	color: #3498db;
 	box-shadow: none;
