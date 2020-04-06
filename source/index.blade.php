@@ -17,7 +17,7 @@
 	<p>Feel free to have a chat with us while we're working on the page! We'd love to have your thoughts included in the newest version.</p>
 	<div class="btn-container">
 		<a href ="https://discord.gg/8kSnjNN" class="btn">Join Discord</a>
-		<button class="btn ghost" id="trick">
+		<button class="btnF ghost" id="trick">
 			No. Not for me!
 			<span>Don't click me</span>
 		</button>
@@ -92,7 +92,18 @@ h1, h2, h4, h5, p {
 	position: relative;
 	margin: 10px;
 }
-
+.btnF {
+	background-color: #3498db;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 15px 30px;
+	position: relative;
+	margin: 10px;
+}
 .btn:active {
 	box-shadow: none;
 	transform: scale(0.98);
