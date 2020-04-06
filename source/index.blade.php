@@ -77,7 +77,7 @@ h1, h2, h4, h5, p {
 	align-items: center;
 	justify-content: center;
 }
-btn:hover {
+.btn:hover {
     background-color: #3498db !important;
 }
 .btn {
