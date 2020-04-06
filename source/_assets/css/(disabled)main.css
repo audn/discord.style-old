@@ -9,7 +9,6 @@
  *
  * @import "tailwindcss/preflight";
  */
-@import 'tailwindcss/preflight';
 
 /**
  * This injects any component classes registered by plugins.
@@ -18,7 +17,6 @@
  *
  * @import "tailwindcss/components";
  */
-@import 'tailwindcss/components';
 
 /**
  * Here you would add any of your custom component classes; stuff that you'd
@@ -35,8 +33,6 @@
  * @import "components/buttons";
  * @import "components/forms";
  */
-@import 'components/buttons';
-@import 'components/main';
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
@@ -46,7 +42,6 @@
  *
  * @import "tailwindcss/utilities";
  */
-@import 'tailwindcss/utilities';
 
 /**
  * Here you would add any custom utilities you need that don't come out of the
@@ -64,15 +59,3 @@
  */
 
 html,
-body {
-  @apply text-black font-sans;
-}
-
-p:not([class]) {
-  @apply mb-4;
-}
-
-.object-fit-cover {
-  object-fit: cover;
-  font-family: 'object-fit: cover;';
-}
