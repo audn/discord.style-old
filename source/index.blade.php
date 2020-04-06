@@ -9,13 +9,15 @@
 
     {{-- https://laravel.com/docs/5.4/blade#template-inheritance --}}
     @section('body')
+<!-- Design: https://dribbble.com/shots/5035559-Cookie-Pop-up-Overlay-UI -->
+<!-- Icon from flaticon -->
 <div class="popup">
 	<h1>👋</h1>
-	<h2>Heya! This site is under construction.</h2>
+	<h2 class="h">Heya! This site is under construction.</h2>
 	<p>Feel free to have a chat with us while we're working on the page! We'd love to have your thoughts included in the newest version.</p>
 	<div class="btn-container">
-		<a href="https://discord.gg/8kSnjNN" class="btnf">Join Discord</a>
-		<button class="btnf ghost" id="trick">
+		<a href ="" class="btn">Join Discord</a>
+		<button class="btn ghost" id="trick">
 			No. Not for me!
 			<span>Don't click me</span>
 		</button>
@@ -63,7 +65,9 @@ body {
 	text-align: center;
 	max-width: 500px;
 }
-
+h1, h2, h4, h5, p {
+    margin: 15px;
+}
 .popup p {
 	color: #555;
 }
@@ -74,7 +78,7 @@ body {
 	justify-content: center;
 }
 
-.btnf {
+.btn {
 	background-color: #3498db;
 	border: 0;
 	border-radius: 5px;
@@ -87,12 +91,12 @@ body {
 	margin: 10px;
 }
 
-.btnf:active {
+.btn:active {
 	box-shadow: none;
 	transform: scale(0.98);
 }
 
-.btnf:focus {
+.btn:focus {
 	outline: none;
 }
 
@@ -119,176 +123,13 @@ body {
 	width: 70px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* SOCIAL PANEL CSS */
-.social-panel-container {
-	position: fixed;
-	right: 0;
-	bottom: 80px;
-	transform: translateX(100%);
-	transition: transform 0.4s ease-in-out;
-}
-
-.social-panel-container.visible {
-	transform: translateX(-10px);
-}
-
-.social-panel {	
-	background-color: #fff;
-	border-radius: 16px;
-	box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
-	border: 5px solid #001F61;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Muli';
-	position: relative;
-	height: 169px;	
-	width: 370px;
-	max-width: calc(100% - 10px);
-}
-
-.social-panel button.close-btn {
-	border: 0;
-	color: #97A5CE;
-	cursor: pointer;
-	font-size: 20px;
-	position: absolute;
-	top: 5px;
-	right: 5px;
-}
-
-.social-panel button.close-btn:focus {
-	outline: none;
-}
-
-.social-panel p {
-	background-color: #001F61;
-	border-radius: 0 0 10px 10px;
-	color: #fff;
-	font-size: 14px;
-	line-height: 18px;
-	padding: 2px 17px 6px;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	margin: 0;
-	transform: translateX(-50%);
-	text-align: center;
-	width: 235px;
-}
-
-.social-panel p i {
-	margin: 0 5px;
-}
-
-.social-panel p a {
-	color: #FF7500;
-	text-decoration: none;
-}
-
-.social-panel h4 {
-	margin: 20px 0;
-	color: #97A5CE;	
-	font-family: 'Muli';	
-	font-size: 14px;	
-	line-height: 18px;
-	text-transform: uppercase;
-}
-
-.social-panel ul {
-	display: flex;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-.social-panel ul li {
-	margin: 0 10px;
-}
-
-.social-panel ul li a {
-	border: 1px solid #DCE1F2;
-	border-radius: 50%;
-	color: #001F61;
-	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 50px;
-	width: 50px;
-	text-decoration: none;
-}
-
-.social-panel ul li a:hover {
-	border-color: #FF6A00;
-	box-shadow: 0 9px 12px -9px #FF6A00;
-}
-
-.floating-btn {
-	border-radius: 26.5px;
-	background-color: #001F61;
-	border: 1px solid #001F61;
-	box-shadow: 0 16px 22px -17px #03153B;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	line-height: 20px;
-	padding: 12px 20px;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	z-index: 999;
-}
-
-.floating-btn:hover {
-	background-color: #ffffff;
-	color: #001F61;
-}
-
-.floating-btn:focus {
-	outline: none;
-}
-
-.floating-text {
-	background-color: #001F61;
-	border-radius: 10px 10px 0 0;
-	color: #fff;
-	font-family: 'Muli';
-	padding: 7px 15px;
-	position: fixed;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	text-align: center;
-	z-index: 998;
-}
-
-.floating-text a {
-	color: #FF7500;
-	text-decoration: none;
-}
-
-@media screen and (max-width: 480px) {
-
-	.social-panel-container.visible {
-		transform: translateX(0px);
+	h1.h{
+		font-weight:bold;
 	}
-	
-	.floating-btn {
-		right: 10px;
-	}
-}
-</style>
+
+
+</style> 
+
+
 
 @endsection
