@@ -14,8 +14,8 @@
 	<h2>Heya! This site is under construction.</h2>
 	<p>Feel free to have a chat with us while we're working on the page! We'd love to have your thoughts included in the newest version.</p>
 	<div class="btn-container">
-		<a href="https://discord.gg/8kSnjNN" class="btn">Join Discord</a>
-		<button class="btn ghost" id="trick">
+		<a href="https://discord.gg/8kSnjNN" class="btnf">Join Discord</a>
+		<button class="btnf ghost" id="trick">
 			No. Not for me!
 			<span>Don't click me</span>
 		</button>
@@ -74,7 +74,7 @@ body {
 	justify-content: center;
 }
 
-.btn {
+.btnf {
 	background-color: #3498db;
 	border: 0;
 	border-radius: 5px;
@@ -87,12 +87,12 @@ body {
 	margin: 10px;
 }
 
-.btn:active {
+.btnf:active {
 	box-shadow: none;
 	transform: scale(0.98);
 }
 
-.btn:focus {
+.btnf:focus {
 	outline: none;
 }
 
