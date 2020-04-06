@@ -51,12 +51,13 @@
 <html lang="en">
     <head>
         <head>
-
+    <!--
           <script language="JavaScript" type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/draggabilly.pkgd_copy.js"></script>
           <script language="JavaScript" type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/packery.pkgd.js"></script>
 
-
+  
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+            -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
              <!-- Global site tag (gtag.js) - Google Analytics -->
