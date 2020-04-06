@@ -16,7 +16,7 @@
 	<h2 class="h">Heya! This site is under construction.</h2>
 	<p>Feel free to have a chat with us while we're working on the page! We'd love to have your thoughts included in the newest version.</p>
 	<div class="btn-container">
-		<a href ="" class="btn">Join Discord</a>
+		<a href ="https://discord.gg/8kSnjNN" class="btn">Join Discord</a>
 		<button class="btn ghost" id="trick">
 			No. Not for me!
 			<span>Don't click me</span>
@@ -77,7 +77,9 @@ h1, h2, h4, h5, p {
 	align-items: center;
 	justify-content: center;
 }
-
+btn:hover {
+    background-color: #3498db !important;
+}
 .btn {
 	background-color: #3498db;
 	border: 0;
