@@ -13,8 +13,8 @@
 <!-- Icon from flaticon -->
 <div class="popup">
 	<h1>👋</h1>
-	<h2 class="h">Heya! This site is under construction.</h2>
-	<p>Feel free to have a chat with us while we're working on the page! We'd love to have your thoughts included in the newest version.</p>
+	<h2 class="h">ETA: Within this week!</h2>
+	<p>Online library for Discord Templates! Launching THIS week. Join our Discord for a lil chat before we launch? ;)</p>
 	<div class="btn-container">
 		<a href ="https://discord.gg/8kSnjNN" class="btn ff">Join Discord</a>
 		<button class="btn ghost" id="trick">
