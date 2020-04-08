@@ -2,6 +2,10 @@
 @extends('_layouts.master')
 
 {{-- https://laravel.com/docs/5.4/blade#stacks --}}
+<head>
+<meta name="keywords" content="discord, discord template, templates, discord template, discord library">
+<meta name="description" content="Online library with free Discord Templates!">
+</head>
 @push('head')
 
 
